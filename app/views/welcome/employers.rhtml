@@ -1,0 +1,16 @@
+<% @title = "Welcome, employers!"%>
+<h2>Welcome, Employers</h2>
+
+<h5>There are currently <%= @students_count %> students waiting for you!</h5>
+<p></p>
+<p>A long serving and well-known application in the DC community, JobCorps has been completely redesigned to provide you with the best access to temporary help from the most reliable pool of students in the DC area.</p> <p>  Gone are the days of non-editable job postings, non-AU student applicants, confusing forms and unnavigable pages.  From over 1,000 survey responses, we have designed a site better suited to your needs.  Now, you can:</p>
+
+<ul class="new-stuff">
+	<li>Post and track multiple job listings with one user account</li>
+	<li>Protect your contact information and receive applications online.</li>
+	<li>Search for students with advanced search functions.</li>
+	<li>View student resumes and contact them about filling your job listing.</li>
+	<li>Express Babysitting: A special tool just for finding babysitters</li>
+</ul>
+
+<p class="btns"><%= link_to "Search for Students", :action => "search", :controller => "students" %>  |  <%= link_to "View all Students", :controller => "students" %>  |  <%= link_to "Create an Account", :action => "signup", :controller => "account" %>  |  <%= link_to "Get Help", :action => "index", :controller => "tips" %></p>

@@ -1,0 +1,100 @@
+<% @title = "Profile: " + @student.title %>
+<% if logged_in? %>	
+	<% if can_edit_student? %>
+	<p class="btns" id="shake">
+		<%= link_to "edit", :action => "edit", :id => @student.id %>  |  
+		<% if @student.deactivated == 0 %>
+			<span id="deactivate"><%= link_to_remote("deactivate", :update => 'deactivate', :url => {
+				:action => :deactivate, 
+				:id => @student.id,
+				:confirm => 'Are you sure?' }, 
+				:method => :post ) %>
+			</span>
+		<% else %>
+			<span id="activate"><%= link_to_remote("activate", :update => 'activate', :url => {
+				:action => :activate, 
+				:id => @student.id,
+				:confirm => 'Are you sure?' }, 
+				:method => :post ) %>
+			</span>
+		<% end %>
+		|  
+		<%= link_to 'destroy', { :action => 'destroy', :id => @student.id }, :confirm => 'Are you sure?', :method => :post %>	
+	</p>
+	<% end %>
+	
+	<% if is_employer? %>
+	<p class="btns" id="shake">
+		<% if @favorite_count > 0 %>
+			<%= link_to "favorites", :action => "list", :controller => "favorites" %>  |  
+		<% else %>
+			<span id="favorite"><%= link_to_remote("add to favs", :update => 'favorite', :url => {:action => :add_to_favs,:id => @student.id }, :method => :post ) %></span> |
+		<% end%>
+		<%= link_to('report this student', '#', :onclick => "Effect.Appear('alertHeader2', 0)") %>  |  
+		<%= link_to('contact this student', '#', :onclick => "Effect.Appear('alertHeader', 0)") %>
+		
+		</p>
+	<% end %>
+
+<% end %>
+
+<div id="alertHeader" style="display: none">
+	
+	<% if @student.private == 1 %>
+
+	<p>This student has requested that employers interested in their profile write a note to them using the box below.  Think of it as an email cover letter, in which you introduce yourself, your job opening and suggest the course of action, along with any special requirements you may have.  We will take care of addressing the email for you with their name, including your contact information and a link to your profile, if you have one.</p>
+	<p> Good luck!  If you ever need any assistance, please let us know.</p>
+
+	
+	<% form_remote_tag(:update => "alertHeader", :url => {:id => @student.id, :action => :apply}) do %>
+		<%= text_area "note", "body", :cols => '60', :rows => '10' %>
+		<%= hidden_field "note", "user_id", :value => current_user.id %>
+		<%= hidden_field "note", "student_id", :value => @student.id%><br>
+	<%= submit_tag "Send"%>
+		<!--<%= submit_tag "Send", :confirm => 'Did you check for typos and other such imperfections?' %> <%= link_to "Need advice?", :action => "students", :controller =>"help" %>  |  <%= link_to('cancel', '#', :onclick => "Effect.Shrink('alertHeader', 0)") %>-->
+	<% end %>
+
+	<% else %>
+	
+		<%= @student.user.firstname %> <%= @student.user.lastname %><br>
+		<%= @student.user.company_name %><br>
+		P: <%= number_to_phone(@student.user.telephone, :area_code => true, :delimiter => " ")%><br>
+		E: <%= enkode_mail(@student.user.email,@student.user.email)%> <br>
+	<% end %>
+</div>
+
+<div id="alertHeader2" style="display:none">
+	<% form_remote_tag(:update => "alertHeader2", :url => {:id => @student.id, :action => :report_this_post}) do %>
+		<%= text_area "report", "reason", :cols => '60', :rows => '10' %>
+		<%= hidden_field "report", "user_id", :value => @student.user.id %>
+		<%= hidden_field "report", "student_id", :value => @student.id %>
+		<%= hidden_field "report", "post_type", :value => "1" %><br>
+		<%= submit_tag "Report", :confirm => 'Are you sure?' %> <%= link_to "What warrants reporting?", :action => "index", :controller => "tips" %>  |  <%= link_to('cancel', '#', :onclick => "Effect.Shrink('alertHeader2', 0)") %>
+	<% end %>
+</div>
+
+<% if @student.deactivated == 1%>
+	<h4 id="alert">This profile has been deactivated</h4>
+<% end %>
+
+<h2 id="item-name" class="item fn"><%= @student.title %></h2>
+
+<!--><ul class="info">
+	<li id="info-tags"><strong>Tags:</strong> <%= @student.tags.collect{|tag| tag.name}.join(", ") %></li>
+</ul>-->
+
+<p>This profile was posted by <%= link_to(@student.user.login, '#')%> <%= distance_of_time_in_words(Time.now, @student.created_at, true )%> ago.  They are requesting to work <%= @student.time_requested %>.  <% if @student.has_car == 1%>This student has access to their own car.  <% end %><% if @student.has_references == 1%>This student has references available.<% end %>
+
+	<h5>Description:</h5> <p><%= textilize(@student.description) %></p>
+	<h5>Is Looking For:</h5><p><%= textilize(@student.looking_for) %></p>
+	<% if is_employer? %>
+	<h5>R&#233;sum&#233;:</h5>
+	<p><%= textilize(@student.resume)%></p>
+	<% elsif can_edit_student? %>
+	<h5>R&#233;sum&#233;:</h5>
+	<p><%= textilize(@student.resume)%></p>
+	<% end %>
+
+	<% if !logged_in? %>
+		<h4 class="error">Sign up or Log in to view details for this student</h4>
+	<% end %>

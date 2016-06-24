@@ -1,0 +1,3 @@
+<h2><%= @resume.use.login %>'s Resume</h2>
+
+<%= link_to "Click here for the resume", :action => "resume", :id => @resume.id %>

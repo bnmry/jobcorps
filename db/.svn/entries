@@ -1,0 +1,55 @@
+8
+
+dir
+30
+http://www.brmurray.com/svn/jobcorps/db
+http://www.brmurray.com/svn/jobcorps
+
+
+
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2dded529-1646-0410-b2cf-f842be2b690d
+
+development_structure.sql
+file
+
+
+
+
+2008-02-21T12:53:40.000000Z
+45b5198162da2601fb69635cdb927667
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+schema.rb
+file
+
+
+
+
+2008-02-21T12:53:40.000000Z
+19033cf56d44859ed4e626d346435f73
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+migrate
+dir
+

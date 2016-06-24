@@ -1,0 +1,15 @@
+<% @title = "Welcome, students!"%>
+<h2>Welcome, Students</h2>
+
+<h5>There are currently <%= @jobs_count %> employers looking for you!</h5>
+<p></p>
+<p>JobCorps has been built with you in mind.  JobCorps was built by AU students, for AU students with the single goal of getting you a job.  We specialize in listing part-time jobs like babysitting, dog-walking, tutoring, internships and more.  Plus, you can let employers find you.  Just post your own listing that explains what kind of job you're seeking and watch the messages roll in.</p>
+
+<ul class="new-stuff">
+	<li>Upload your resume to your student profile for employers to see</li>
+	<li>Looking for different types of jobs? Create several profiles with one user account.</li>
+	<li>Search for specific jobs and even subscribe to a live feed.</li>
+	<li>Express Babysitting: A special tool just for babysitters</li>
+</ul>
+
+<p class="btns"><%= link_to "Search for Jobs", :action => "search", :controller => "jobs" %>  |  <%= link_to "View all Jobs", :controller => "jobs" %>  |  <%= link_to "Create an Account", :action => "signup", :controller => "account" %>  |  <%= link_to "Get Help", :action => "index", :controller => "tips" %></p>

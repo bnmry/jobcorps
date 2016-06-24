@@ -1,0 +1,7 @@
+<%= error_messages_for 'favorite' %>
+
+<!--[form:favorite]-->
+<p><label for="favorite_created_on">Created on</label><br/>
+<%= datetime_select 'favorite', 'created_on'  %></p>
+<!--[eoform:favorite]-->
+

@@ -1,0 +1,18 @@
+Hi, <%= @user.firstname %>!
+
+Thanks for joining JobCorps, a production of the American University Undergraduate Student Government.  Before using JobCorps, you must activate your account by clicking on the link below.  If it does not appear as a hyperlink, copy and paste it into your web browser.
+
+You must click this link to confirm your account!
+<%= @url %>
+
+Your login credentials are:
+
+  login:    <%= @user.login %>
+  password: <%= @user.password %>
+
+Please write these down or commit them to memory as you'll need them to log in.  If you forget, just return to JobCorps and click "forgot your password?" to get a new one.
+
+We hope you enjoy using JobCorps, offered free-of-charge to American University Students and their employers.  If you require assistance, please visit the help pages.
+
+Best wishes,
+The JobCorps Team

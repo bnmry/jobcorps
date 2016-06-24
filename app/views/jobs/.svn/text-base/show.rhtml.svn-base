@@ -1,0 +1,101 @@
+<% @title = "Job: " + @job.title %>
+<% if logged_in? %>
+	<% if can_edit_job? %>
+	<p class="btns" id="shake">
+			<%= link_to "edit", :action => "edit", :id => @job.id %>  |  
+			<% if @job.deactivated == 0 %>
+			<span id="deactivate"><%= link_to_remote("deactivate", :update => 'deactivate', :url => {
+				:action => :deactivate, 
+				:id => @job.id,
+				:confirm => 'Are you sure?' }, 
+				:method => :post ) %>
+			</span>
+			<% else %>
+			<span id="activate"><%= link_to_remote("activate", :update => 'activate', :url => {
+				:action => :activate, 
+				:id => @job.id,
+				:confirm => 'Are you sure?' }, 
+				:method => :post ) %>
+			</span>
+		</p>
+			<% end %>|  
+		<%= link_to 'destroy', { :action => 'destroy', :id => @job.id }, :confirm => 'Are you sure?', :method => :post %>
+		
+    <% end %>
+	
+	<% if is_student? %>
+		<p class="btns" id="shake">
+	
+		<% if @favorite_count > 0 %>
+			<%= link_to "favorites", :action => "list", :controller => "favorites" %>  |  
+		<% else %>
+			<span id="favorite"><%= link_to_remote("add to favs", :update => 'favorite', :url => {:action => :add_to_favs,:id => @job.id }, :method => :post ) %></span> |
+		<% end%>
+		<%= link_to('report this job', '#', :onclick => "Effect.Appear('alertHeader2', 0)") %>  |  
+		<%= link_to('apply for this job', '#', :onclick => "Effect.Appear('alertHeader', 0)") %>
+		</p>
+	<% end %>
+
+
+
+
+<div id="alertHeader" style="display: none">
+	
+	<% if @job.private == 1 %>
+	
+		<% if @notes > 0 %>
+		<p>Hold it!  You've already sent a note to this employer concerning this job.  You can send another, but we thought we should warn you.  It may take several days or weeks to hear back.  We strongly suggest that you wait for them to contact you.  <%= link_to "Read more", :action => "index", :controller => "tips" %> about the application process, or <%= link_to "view all notes you've sent", :action => "list", :controller => "notes" %>.</p>
+		<% else %>
+		<p>The employer has requested that students interested in this position write a note to them using the box below.  Think of it as an email cover letter, in which you introduce yourself, your qualification and suggest the course of action, along with any references or special requirements you may have.  We will take care of addressing the email for you with their name, including your contact information and a link to your profile, if you have one.</p>
+		<p> Good luck!  If you ever need any assistance, please let us know.</p>
+		<% end %>
+	
+	<% form_remote_tag(:update => "alertHeader", :url => {:id => @job.id, :action => :apply}) do %>
+		<%= text_area "note", "body", :cols => '60', :rows => '10' %>
+		<%= hidden_field "note", "user_id", :value => current_user.id %>
+		<%= hidden_field "note", "job_id", :value => @job.id %><br>
+		<%= submit_tag "Apply", :confirm => 'Did you check for typos and other such imperfections?' %> <%= link_to "Need advice?", :controller =>"tips" %>  |  <%= link_to('cancel', '#', :onclick => "Effect.Shrink('alertHeader', 0)") %>
+	<% end %>
+
+	<% else %>
+		<strong>Please contact the employer:</strong><br>
+		<%= @job.user.firstname %> <%= @job.user.lastname %><br>
+		<%= @job.user.company_name %><br>
+		P: <%= number_to_phone(@job.user.telephone, :area_code => true, :delimiter => " ")%><br>
+		E: <%= enkode_mail(@job.user.email,@job.user.email)%> <br>
+	<% end %>
+</div>
+
+<div id="alertHeader2" style="display:none">
+	<% form_remote_tag(:update => "alertHeader2", :url => {:id => @job.id, :action => :report_this_post}) do %>
+		<%= text_area "report", "reason", :cols => '60', :rows => '10' %>
+		<%= hidden_field "report", "user_id", :value => @job.user.id %>
+		<%= hidden_field "report", "job_id", :value => @job.id %>
+		<%= hidden_field "report", "post_type", :value => "1" %><br>
+		<%= submit_tag "Report", :confirm => 'Are you sure?' %> <%= link_to "What warrants reporting?", :action => "index", :controller => "tips" %>  |  <%= link_to('cancel', '#', :onclick => "Effect.Shrink('alertHeader2', 0)") %>
+	<% end %>
+</div>
+<% end %>
+
+<!-- Begin Viewable By All -->
+
+<% if @job.deactivated == 1%>
+	<h4 id="alert">This job has been deactivated</h4>
+<% end %>
+
+<h2 id="item-name" class="item fn"><%= @job.title %></h2>
+
+<!--><ul class="info">
+	<li id="info-tags"><strong>Tags:</strong> <%= @job.tags.collect{|tag| tag.name}.join(", ") %></li>
+</ul>-->
+
+<p>This job was posted by <%= link_to(@job.user.login, '#')%> <%= distance_of_time_in_words(Time.now, @job.created_at, true )%> ago.  This posting will expire on <%= @job.start_date.strftime("%A, %B %d") %>.  <%= @job.user.login %> is willing to pay between <%= @job.pay_min %> and <%= pluralize(@job.pay_max, "dollar") %> per <%= @job.pay_increment %>.  The job requires that you be available <%= @job.time_required %> These hours are <% if @job.flexible == 0 %><span style="color:#636E99">not</span><% end %>  flexible.</p>
+
+	<h5>Description:</h5> <p><%= textilize(@job.description) %></p>
+	<h5>Qualifications:</h5><p><%= textilize(@job.qualifications) %></p>
+	<h5>How to apply:</h5><% if logged_in?%><p><%= textilize(@job.how_to_apply) %></p><% end %>
+	
+
+	<% if !logged_in? %>
+		<h4 class="error">Sign up or Log in to view details for this job</h4>
+	<% end %>

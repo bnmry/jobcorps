@@ -1,0 +1,12 @@
+<% @title = "Tips"%>
+<h2>JobCorps Tips</h2>
+<p>From your feedback and questions, we've created the following list of tips to help you use JobCorps better.  If we're missing anything, or you'd like further assistance, email us at <%= enkode("jobcorps@ausg.org")%>.</p>
+<% for tip in @tips %>
+	<h5><%= tip.title %></h5>
+	<p><%= h(tip.body) %>
+		<% if is_administrator? %>
+			<%= link_to "new", :action => "new" %>  |  
+			<%= link_to "edit", :action => "edit", :id => tip.id %>  |  
+			<%= link_to "destroy", :action => "destroy", :id => tip.id, :confirm => "Are you sure?" %>
+		<% end %></p>
+<% end %>

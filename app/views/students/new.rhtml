@@ -1,0 +1,12 @@
+<% @title = "Create a Student Profile"%>
+<h2>Create your profile</h2>
+<h4>Before you begin</h4>
+<p>To create your student profile on JobCorps, complete this form.  All fields are required.  Be sure to provide as much information as possible.  If you'd like some advice on posting this profile, visit our <%= link_to "tips section", :action => "index", :controller => "tips" %>. The information you enter below is in the public domain, except for the "R&#233;sum&#233;" section, which is protected from the public and other students.  Read the <%= link_to "Privacy Policy", :controller => "about", :action => "privacy" %> for more information.</p></p>
+
+<h4>Tell us about yourself</h4>
+<% form_tag(:action => 'create') do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag "Create" %>
+<% end %>
+
+<%= link_to 'Back', :action => 'list' %>

@@ -1,0 +1,13 @@
+<% @title = "New Job"%>
+<h2>Submit Your Job Posting</h2>
+<h4>Before You Begin</h4>
+<p>In creating your job posting, it is very important to be as clear and concise as possible.  Be frank in providing details about the job, the time required, qualifications and pay. The information you enter below is in the public domain, except for the "To Apply" section, which is protected from the public and other employers.  Read the <%= link_to "Privacy Policy", :controller => "about", :action => "privacy" %> for more information.</p>
+	
+<p>Students are more likely to respond to postings that are thoughtfully written, that provide the most important details and are grammatically correct.  If you'd like more help with filling out this form, visit the <%= link_to "employer's help page", :action => "index", :controller => "tips" %>.</p>
+
+<h4>Tell Us About Your Job</h4>
+<%= error_messages_for 'create' %>
+<% form_tag(:action => "create") do %>
+	<%= render :partial => 'form' %>
+<%= submit_tag %>
+<% end %>

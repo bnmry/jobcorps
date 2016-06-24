@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/jobcorps/!svn/ver/1/app/views/notes
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jobcorps/!svn/ver/1/app/views/notes/list.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jobcorps/!svn/ver/1/app/views/notes/show.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobcorps/!svn/ver/1/app/views/notes/_form.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jobcorps/!svn/ver/1/app/views/notes/edit.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jobcorps/!svn/ver/1/app/views/notes/new.rhtml
+END

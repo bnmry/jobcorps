@@ -1,0 +1,110 @@
+
+		<%= error_messages_for("job") %>
+
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th><label for="title">Title:</label></th>
+		<td>
+       		<%= text_field 'job', 'title', :class => 'input-text'%>
+       		<p class="note">e.g. "PR Internship" or "Foreign Language Tutor"</em></p>
+     	</td>
+	</tr>
+	
+	<tr>
+		<th><label for="description">Description:</label></th>
+		<td>
+       		<%= text_area 'job', 'description', :class => 'input-area'%>
+       		<p class="note"><a href="http://hobix.com/textile/">Textile</a> is available. _italics_ *bold* +underlined+</em></p>
+     	</td>
+	</tr>
+	
+	<tr>
+		<th><label for="qualifications">Qualifications:</label></th>
+		<td>
+       		<%= text_area 'job', 'qualifications', :class => 'input-area'%>
+       		<p class="note"><a href="http://hobix.com/textile/">Textile</a> is available. _italics_ *bold* +underlined+</em></p>
+     	</td>
+	</tr>
+	
+	<tr>
+		<th><label for="how_to_apply">To Apply:</label></th>
+		<td>
+       		<%= text_area 'job', 'how_to_apply', :class => 'input-area'%>
+       		<p class="note">Optional.  Protected from public and employers.</em></p>
+     	</td>
+	</tr>
+	
+	<tr>
+		<th><label for="start_date">Expires:</label></th>
+		<td>
+       		<input name="job[start_date]" id="job_start_date" type="text" value="<%= @job.start_date %>" tabindex="5" size="10" onFocus="Calendar.setup" />
+				<script type="text/javascript">
+				    Calendar.setup({
+				        inputField     :    "job_start_date",           //*
+				        ifFormat       :    "%Y-%m-%d",
+				        showsTime      :    false,
+				        button         :    "job_start_date",        //*
+				        step           :    1
+				    });
+				</script>
+       		<p class="note">The date by which the position must be filled.  Posting will be deactivated on this date.  Click on the box for pop-up calendar.</em></p>
+     	</td>
+	</tr>
+
+	<tr>
+		<th><label for="time-Required">Wage:</label></th>
+		<td>
+       		$<%= text_field 'job', 'pay_min', :class => 'input-pay'%> to  
+			$<%= text_field 'job', 'pay_max', :class => 'input-pay'%> per 
+			<%= text_field 'job', 'pay_increment', :class => 'input-pay' %>  
+       		<p class="note">Please complete minimum and maximum, even if they are the same.</em></p>
+     	</td>
+	</tr>
+
+	<tr>
+		<th><label for="time-Required">Time required:</label></th>
+		<td>
+       		<%= text_field 'job', 'time_required', :class => 'input-text'%>
+       		<p class="note">e.g. "2-5PM every Monday and Thursday" or "20 hours per week"</em></p>
+     	</td>
+	</tr>
+	
+	<tr>
+		<th><label for="zip">Zip code:</label></th>
+		<td>
+       		<%= text_field 'job', 'zip', :class => 'input-text'%>
+       		<p class="note">This will be used to calculate the distance to the job site.</em></p>
+     	</td>
+	</tr>
+</table>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th>Additional:</th>
+		<td><%= check_box "job", "car_required"%> Needs A Car
+			<p class="note">The applicant must have access to a car.</p></td>
+		<td><%= check_box "job", "references_required" %> Needs References
+			<p class="note">Do you require references from the applicant?</p></td>
+	</tr>
+	<tr>
+		<th> </th>
+		<td><%= check_box "job", "babysitter"%> Babysitter
+			<p class="note">Is this a babysitting job?</p></td>
+		<td><%= check_box "job", "flexible" %> Flexible Hours
+			<p class="note">Are your hours flexible?</p></td>
+	</tr>
+</table>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th>Apply online:</th>
+		<td><%= check_box "job", "private"%> Keep contact private?
+			<p class="note">By checking this box, your contact information will be kept private and students will apply for your job online. If unchecked, it will be viewable by registered students only.</p></td>
+		<td></td>
+	</tr>
+	
+	<tr class="last">
+		<th></th>
+			<td>
+				<%= hidden_field 'job', 'user_id', :value => current_user.id%>
+			</td>
+	</tr>
+</table>

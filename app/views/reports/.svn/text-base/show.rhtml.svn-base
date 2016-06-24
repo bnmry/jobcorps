@@ -1,0 +1,37 @@
+<% @title = "Showing Report"%>
+<% if @report.job_id > 0 %>
+<% if @report.resolved == 1%>
+	<h4 class="confirm">This report has been resolved</h4>
+<% end %>
+<h2>"<%= @report.job.title %>" has been reported</h2>
+
+<p><strong>By:</strong> <%= @report.user.firstname %> <%= @report.user.lastname %> (<%= link_to "show", :action => "meet", :controller => "user", :id => @report.user.id %>)<br>
+	<strong>On:</strong> <%= @report.created_at.strftime("%B %d, %Y")%><br>
+	<strong>Job posted by:</strong> <%= @report.job.user.login %><br>
+	<strong>At:</strong> <% @report.job.created_at.strftime("%B %d, %Y")%><br
+	<%= link_to "See the job", :action => "show", :controller => "jobs", :id => @report.job.id %></p>
+	
+<p><%= textilize(h(@report.reason)) %>
+
+<span id="resolve"><%= link_to_remote("Mark as resolved", :url => {:action => :resolve,:id => @report }, :method => :post ) %></span>  |  
+<%= link_to 'Back', :action => 'jobs' %>
+
+<% else %>
+
+<% if @report.resolved == 1%>
+	<h4 class="confirm">This report has been resolved</h4>
+<% end %>
+<h2>"<%= @report.student.title %>" has been reported</h2>
+
+<p><strong>By:</strong> <%= @report.user.firstname %> <%= @report.user.lastname %> (<%= link_to "show", :action => "meet", :controller => "user", :id => @report.user.id %>)<br>
+	<strong>On:</strong> <%= @report.created_at.strftime("%B %d, %Y")%><br>
+	<strong>Job posted by:</strong> <%= @report.student.user.login %><br>
+	<strong>At:</strong> <% @report.student.created_at.strftime("%B %d, %Y")%><br
+	<%= link_to "See the student's profile", :action => "show", :controller => "students", :id => @report.student.id %></p>
+	
+<p><%= textilize(h(@report.reason)) %>
+
+<span id="resolve"><%= link_to_remote("Mark as resolved", :url => {:action => :resolve,:id => @report }, :method => :post ) %></span>  |  
+<%= link_to 'Back', :action => 'students' %>
+
+<% end %>

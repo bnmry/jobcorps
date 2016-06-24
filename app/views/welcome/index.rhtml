@@ -1,0 +1,12 @@
+<% @title = "Welcome"%>
+<h2>For AU students and their employers</h2>
+
+<div id="welcome">
+  <p>JobCorps makes it easy for American University students and employers to connect. A production of the AU Student Government, JobCorps provides you with resources, tips and a marketplace to find just what you need...quickly and hassle-free.</p>
+  <ul>
+    <li>Find hundreds of jobs and students every day</li>
+    <li>Send messages to other users and track your favorite listings</li>
+    <li>Access the most dependable and qualified student applicant pool in DC</li>
+  </ul>
+  <p id="signupnow"><%= link_to (image_tag('/images/btn-students.gif')), :action => "students", :controller => "welcome" %>    <%= link_to (image_tag('/images/btn-employers.gif')), :action => "employers", :controller => "welcome" %></p>
+</div>

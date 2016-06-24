@@ -1,0 +1,28 @@
+<% @title = "Babysitters Needed"%>
+<h2>Babysitters Needed<em class="subhead">Short-term, open positions</em></h2>
+<p>This tool is meant for babysitting positions that are mainly short-term arrangements, especially those coming up this weekend.  Nannying positions should be accessed like all other jobs.
+<% if @jobs.nil? %>
+	<h4 class="error">No positions available</h4>
+<% else %>
+<h3 class="item-list">Unfilled Positions</h3>
+    <table cellspacing="0" class="item-list">
+		<% 
+		odd_or_even = 0
+		for job in @jobs 
+			odd_or_even = 1 - odd_or_even
+		%>
+	  		<tr class="alt_row<%= odd_or_even %>">
+	  			<th>
+					<strong><%= link_to job.title, :action => "show", :controller => "jobs", :id => job.id %></strong><br>
+	  				<span class="description"><%= h(truncate(job.description, 75)) %></span>
+				</th>
+				
+				<td class="date">
+					posted: <%= job.created_at.strftime("%B %d") %><br>
+					<span class="tags"><%= job.tags.collect{|tag| tag.name}.join(", ") %></span>
+				</td>
+				
+	  		</tr>
+	<% end %>
+	</table>
+<% end %>

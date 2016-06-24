@@ -1,0 +1,27 @@
+<% @title = "Viewing Notes"%>
+<% if @note.job_id > 0 %>	
+	<h2>Your Note Regarding: "<%= @note.job.title %>"</h2>
+	
+	<p>You wrote the note below to <%= link_to @note.user.login, :action => "meet", :controller => "user", :id => @note.user.login %>, which was sent via email on <%= @note.created_on.strftime("%A, %B %d, %Y") %>.  It was regarding the job posting titled "<%= @note.job.title %>", which was posted to JobCorps on <%= @note.job.created_at.strftime("%A, %B %d, %Y") %>.  You can find the entire job posting <%= link_to "here", :action => "show", :controller => "jobs", :id => @note.job.id %>.</p>
+	<p>"<%= h(@note.body) %>"</p>
+<% end %>
+
+<% if @note.student_id > 0 %>	
+	<h2>Your Note Regarding: "<%= @note.student.title %>"</h2>
+	
+	<p>Your note to <%= @note.student.user.login %>, was sent via email on <%= @note.created_on.strftime("%A, %B %d, %Y") %>.</p>
+	<p>"<%= h(@note.body) %>"</p>
+<% end %>
+
+<%= link_to "<< Back to the list", :action => "list" %>
+
+<% if is_administrator? %>
+<div id="alertHeader">
+From: <%= @note.user.firstname%> <%= @note.user.lastname %> (<%= @note.user.created_at.strftime("%B %d, %Y")%>)<br>
+<% if @note.student_id > 0%>
+To: <%= @note.student.user.firstname%> <%= @note.student.user.lastname %> (<%= @note.student.user.created_at.strftime("%B %d, %Y")%>)
+<%else%>
+To: <%= @note.job.user.firstname%> <%= @note.job.user.lastname %> (<%= @note.job.user.created_at.strftime("%B %d, %Y")%>)
+<% end %>
+</div>
+<% end %>

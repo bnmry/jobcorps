@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jobcorps/!svn/ver/1/test/fixtures/note_mailer
+END
+student
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobcorps/!svn/ver/1/test/fixtures/note_mailer/student
+END
+job
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/test/fixtures/note_mailer/job
+END
+employer
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobcorps/!svn/ver/1/test/fixtures/note_mailer/employer
+END

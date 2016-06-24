@@ -1,0 +1,12 @@
+<% @title = "Tagging Students"%>
+<%= render :partial => "quick_nav"%>
+<h2>Tags</h2>
+
+<p>Tags are like keywords, they help relate jobs to one another and allow you to easily find all jobs that, for example, are on a Monday.  Students can tag their profiles with "Monday".  When you need someone to work Monday, just click Monday.  You'll see all the students available on Mondays.  Below is a "tag cloud".  The more popular the tag, the larger it is.</p>
+
+<center>
+<% tag_cloud @tags, %w(nube1 nube2 nube3 nube4 nube5) do |name, css_class| %>
+  <%= link_to name, {:action => "list", :controller => "students", :id => name},
+    :class => css_class %>
+<% end %>
+</center>

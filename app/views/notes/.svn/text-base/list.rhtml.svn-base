@@ -1,0 +1,61 @@
+<% @title = "Listing Notes"%>
+<h2>Your Notes</h2>
+<p>This is a list of the notes you've sent to other JobCorps users regarding their postings.  They've all been emailed and require no action on your part.  We've provided them here for your reference.</p>
+<% if is_student? %>
+<%= pagination_links(@note_job_pages)%>
+	<h3 class="item-list">Notes You've Sent to Employers</h3>
+	    <table cellspacing="0" class="item-list">
+	<% 
+	odd_or_even = 0
+	for note_job in @notes_jobs 
+		odd_or_even = 1 - odd_or_even
+	%>
+			  		<tr class="alt_row<%= odd_or_even %>">
+			  			<th>
+							<strong>Re: <%= link_to note_job.job.title, :action => "show", :id => note_job.id %></strong><br>
+			  				<span class="description">You: <%= h(truncate(note_job.body, 75)) %></span>
+						</th>
+				
+						<td class="date">
+							<%= distance_of_time_in_words(Time.now, note_job.created_on, true )%> ago<br>
+							<span class="tags">
+								from: <%= note_job.user.firstname %> <%= note_job.user.lastname %><br>
+								to: <%= note_job.job.user.firstname %> <%= note_job.job.user.lastname %>
+							</span>
+						</td>
+				
+			  		</tr>
+	<% end %>
+			</table>
+	
+<% end %>
+	
+<% if is_employer? %>
+<%= pagination_links(@note_student_pages)%>
+	<h3 class="item-list">Notes You've Sent to Students</h3>
+	    <table cellspacing="0" class="item-list">
+		<% 
+		odd_or_even = 0
+		for note_student in @notes_students 
+			odd_or_even = 1 - odd_or_even
+		%>
+
+
+			  		<tr class="alt_row<%= odd_or_even %>">
+			  			<th>
+							<strong>Re: <%= link_to note_student.student.title, :action => "show", :id => note_student.id %></strong><br>
+			  				<span class="description">You: <%= h(truncate(note_student.body, 75)) %></span>
+						</th>
+
+						<td class="date">
+							<%= distance_of_time_in_words(Time.now, note_student.created_on, true )%> ago<br>
+							<span class="tags">
+									from: <%= note_student.user.firstname %> <%= note_student.user.lastname %><br>
+									to: <%= note_student.student.user.firstname %> <%= note_student.student.user.lastname %>
+							</span>
+						</td>
+
+			  		</tr>
+		<% end %>
+			</table>
+		<% end %>

@@ -1,0 +1,6 @@
+---
+mode: development
+bundle: /Applications/Locomotive2/Bundles/standardRailsMar2007.locobundle
+port: 3006
+identifier: jobcorps
+runs_at_launch: 0

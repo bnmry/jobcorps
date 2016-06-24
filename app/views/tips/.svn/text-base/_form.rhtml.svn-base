@@ -1,0 +1,16 @@
+<%= error_messages_for 'tip' %>
+
+<!--[form:tip]-->
+<p><label for="tip_title">Title</label><br/>
+<%= text_field 'tip', 'title'  %></p>
+
+<p><label for="tip_body">Body</label><br/>
+<%= text_area 'tip', 'body'  %></p>
+
+<p><label for="tip_created_at">Created at</label><br/>
+<%= datetime_select 'tip', 'created_at'  %></p>
+
+<p><label for="tip_updated_at">Updated at</label><br/>
+<%= datetime_select 'tip', 'updated_at'  %></p>
+<!--[eoform:tip]-->
+

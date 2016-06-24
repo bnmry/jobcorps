@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/jobcorps/!svn/ver/28/app/views/students
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/views/students/list.rhtml
+END
+tags.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/views/students/tags.rhtml
+END
+_quick_nav.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobcorps/!svn/ver/1/app/views/students/_quick_nav.rhtml
+END
+activate.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobcorps/!svn/ver/1/app/views/students/activate.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobcorps/!svn/ver/28/app/views/students/show.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobcorps/!svn/ver/28/app/views/students/_form.rhtml
+END
+_search.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobcorps/!svn/ver/1/app/views/students/_search.rhtml
+END
+apply.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobcorps/!svn/ver/1/app/views/students/apply.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/views/students/edit.rhtml
+END
+search.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobcorps/!svn/ver/1/app/views/students/search.rhtml
+END
+add_to_favs.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jobcorps/!svn/ver/1/app/views/students/add_to_favs.rhtml
+END
+deactivate.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobcorps/!svn/ver/1/app/views/students/deactivate.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jobcorps/!svn/ver/1/app/views/students/new.rhtml
+END

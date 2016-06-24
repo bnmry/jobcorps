@@ -1,0 +1,5 @@
+<h2>Welcome, Administrator</h2>
+
+<p>There are currently <strong><%= @student_accounts %> students</strong> and <strong><%= @employer_accounts %> employers</strong> using JobCorps.  There are <strong><%= @jobs_count %> active job postings</strong> and <strong><%= @students_count %> active student profiles</strong>.</p>
+
+<p><%= @expired_jobs %> job postings and <%= @expired_students %> student profiles have passed their expiration dates.  Would you like to <%= link_to "deactivate them", :controller => "user", :action => "deactivate" %>?</p>

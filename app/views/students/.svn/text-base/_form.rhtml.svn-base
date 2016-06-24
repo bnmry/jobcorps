@@ -1,0 +1,98 @@
+		<%= error_messages_for("student") %>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th><label for="title">Title:</label></th>
+		<td>
+       		<%= text_field 'student', 'title', :class => 'input-text'%>
+       		<p class="note">e.g. "Experienced Journalism Intern" or "Foreign Language Tutor"</em></p>
+     	</td>
+	</tr>
+	
+	<tr>
+		<th><label for="description">Description:</label></th>
+		<td>
+       		<%= text_area 'student', 'description', :class => 'input-area'%>
+       		<p class="note"><a href="http://hobix.com/textile/">Textilize</a> available. _italics_ *bold* +underlined+</em></p>
+     	</td>
+	</tr>
+
+	
+	<tr>
+		<th><label for="looking_for">Looking for:</label></th>
+		<td>
+       		<%= text_area 'student', 'looking_for', :class => 'input-area'%>
+       		<p class="note"><a href="http://hobix.com/textile/">Textilize</a> available. _italics_ *bold* +underlined+</em></p>
+     	</td>
+	</tr>
+	
+	<tr>
+		<th><label for="start_date">Expires:</label></th>
+		<td>
+       		<input name="student[expires]" id="student_expires" type="text" value="<%= @student.expires %>" tabindex="5" size="10" onFocus="Calendar.setup" />
+				<script type="text/javascript">
+				    Calendar.setup({
+				        inputField     :    "student_expires",           //*
+				        ifFormat       :    "%Y-%m-%d",
+				        showsTime      :    false,
+				        button         :    "student_expires",        //*
+				        step           :    1
+				    });
+				</script>
+       		<p class="note">Your profile will turn off on this date, but not delete.</em></p>
+     	</td>
+	</tr>
+
+	<tr>
+		<th><label for="time-Required">Time requested:</label></th>
+		<td>
+       		<%= text_field 'student', 'time_requested', :class => 'input-text'%>
+       		<p class="note">e.g. "2-5PM every Monday and Thursday" or "20 hours per week"</em></p>
+     	</td>
+	</tr>
+	
+	<tr>
+		<th><label for="zip">Zip code:</label></th>
+		<td>
+       		<%= text_field 'student', 'zip', :class => 'input-text'%>
+       		<p class="note">This will be used to calculate the distance from your employer.</em></p>
+     	</td>
+	</tr>
+</table>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th>Additional:</th>
+		<td><%= check_box "student", "has_car"%> Have a car?
+			<p class="note">Indicate that you have a car and can use it for your job.</p></td>
+		<td><%= check_box "student", "has_references" %> Have references?
+			<p class="note">Indicate you have references on hand to present if needed.</p></td>
+		
+	</tr>
+	<tr>
+		<th> </th>
+		<td><%= check_box "student", "babysitter"%> Are you a babysitter?
+			<p class="note">If you're looking for babysitting positions, check this box and you'll be added to the express babysitting list.</p></td>
+	</tr>
+</table>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th>Privacy:</th>
+		<td><%= check_box "student", "private"%> Keep contact private?
+			<p class="note">If checked, your contact information will not be displayed to employers.  They will be asked to type you a note to be delivered via email.</p></td>
+		<td> </td>
+	</tr>
+</table>
+<table class="form-table" cellspacing="0">	
+	<tr>
+		<th><label for="resume">Your R&#233;sum&#233;:</th>
+		<td><%= text_area "student", "resume"%>
+			<p class="note">Optional. This text is protected from the public and other students. Textilize available.</p>
+		</td>
+	</tr>
+	
+	<tr class="last">
+		<th></th>
+			<td>
+				<%= hidden_field 'student', 'user_id', :value => current_user.id%>
+			</td>
+	</tr>
+</table>

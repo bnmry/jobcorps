@@ -1,0 +1,28 @@
+<% @title = "Log In"%>
+  <h2>Login to JobCorps</h2>
+
+<div id="alertHeader">Haven't visited JobCorps since February 15?  <%= link_to "Reset your password", :action => "forgot_password" %> and then log in.  We've upgraded our login system to serve you better and protect your information.  <%= link_to "Read more", :action => "index", :controller => "tips" %>.</div>
+
+<% form_tag do -%>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th>Username:</th>
+  		<td><%= text_field_tag 'login'%>
+				<p class="note"><%= link_to 'Register for an Account', :action => 'signup' %></p></td>
+	</tr>
+	<tr>
+		<th>Password:</th>
+			<td><%= password_field_tag 'password'%>
+				<p class="note"><%= link_to 'I Forgot My Password', :action => 'forgot_password' %></p></td>
+	</tr>
+	<tr>
+		
+		<th>Remember me:</th>
+			<td><%= check_box_tag 'remember_me' %></td>
+				
+	</tr>
+	
+</table>
+
+<p><%= submit_tag 'Log in' %></p>
+<% end -%>

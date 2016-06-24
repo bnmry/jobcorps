@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/jobcorps/!svn/ver/30/app/controllers
+END
+about_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobcorps/!svn/ver/1/app/controllers/about_controller.rb
+END
+welcome_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobcorps/!svn/ver/1/app/controllers/welcome_controller.rb
+END
+account_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobcorps/!svn/ver/30/app/controllers/account_controller.rb
+END
+jobs_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobcorps/!svn/ver/28/app/controllers/jobs_controller.rb
+END
+reports_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobcorps/!svn/ver/1/app/controllers/reports_controller.rb
+END
+tips_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobcorps/!svn/ver/1/app/controllers/tips_controller.rb
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobcorps/!svn/ver/28/app/controllers/application.rb
+END
+favorites_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobcorps/!svn/ver/22/app/controllers/favorites_controller.rb
+END
+resumes_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobcorps/!svn/ver/1/app/controllers/resumes_controller.rb
+END
+babysitter_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobcorps/!svn/ver/28/app/controllers/babysitter_controller.rb
+END
+notes_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jobcorps/!svn/ver/28/app/controllers/notes_controller.rb
+END
+students_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobcorps/!svn/ver/28/app/controllers/students_controller.rb
+END

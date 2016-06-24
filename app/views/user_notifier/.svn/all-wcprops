@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jobcorps/!svn/ver/1/app/views/user_notifier
+END
+signup_notification.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jobcorps/!svn/ver/1/app/views/user_notifier/signup_notification.rhtml
+END
+activation.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobcorps/!svn/ver/1/app/views/user_notifier/activation.rhtml
+END
+forgot_password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jobcorps/!svn/ver/1/app/views/user_notifier/forgot_password.rhtml
+END
+reset_password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jobcorps/!svn/ver/1/app/views/user_notifier/reset_password.rhtml
+END

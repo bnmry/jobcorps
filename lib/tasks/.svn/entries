@@ -1,0 +1,40 @@
+8
+
+dir
+30
+http://www.brmurray.com/svn/jobcorps/lib/tasks
+http://www.brmurray.com/svn/jobcorps
+
+
+
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2dded529-1646-0410-b2cf-f842be2b690d
+
+capistrano.rake
+file
+
+
+
+
+2008-02-21T12:53:40.000000Z
+582576acaa44fdf4e1cee6d96a068c35
+2008-02-15T15:32:16.698857Z
+1
+ausg
+

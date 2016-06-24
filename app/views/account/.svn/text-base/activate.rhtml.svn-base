@@ -1,0 +1,5 @@
+<% @title = "Activation"%>
+
+<h2>Activate Your Account</h2>
+
+<p>Your account was not activated, as the proper activation code was not received.  Please check your activation email again and paste the entire link into your browser.  Some email systems may cut the link in half (insert a carriage return) to place it on two lines.</p>

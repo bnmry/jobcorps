@@ -1,0 +1,731 @@
+# Logfile created on Sat Jun 03 10:59:31 EDT 2006 by logger.rb/1.5.2.7
+[03/Jun/2006:10:59:31 :: 276] starting
+[03/Jun/2006:10:59:31 :: 275] starting
+[03/Jun/2006:11:30:36 :: 276] asked to terminate immediately
+[03/Jun/2006:11:30:36 :: 276] terminated by explicit exit
+[03/Jun/2006:11:30:36 :: 275] asked to terminate immediately
+[03/Jun/2006:11:30:36 :: 275] terminated by explicit exit
+[03/Jun/2006:11:30:47 :: 9781] starting
+[03/Jun/2006:11:30:47 :: 9780] starting
+[03/Jun/2006:11:42:27 :: 9781] asked to terminate immediately
+[03/Jun/2006:11:42:27 :: 9781] terminated by explicit exit
+[03/Jun/2006:11:42:27 :: 9780] asked to terminate immediately
+[03/Jun/2006:11:42:27 :: 9780] terminated by explicit exit
+[03/Jun/2006:11:42:40 :: 9824] starting
+[03/Jun/2006:11:42:40 :: 9825] starting
+[03/Jun/2006:14:17:13 :: 9825] asked to terminate immediately
+[03/Jun/2006:14:17:13 :: 9825] terminated by explicit exit
+[03/Jun/2006:14:17:13 :: 9824] asked to terminate immediately
+[03/Jun/2006:14:17:13 :: 9824] terminated by explicit exit
+[03/Jun/2006:14:17:27 :: 26524] starting
+[03/Jun/2006:14:17:27 :: 26525] starting
+[03/Jun/2006:18:36:00 :: 26921] starting
+[03/Jun/2006:18:36:00 :: 26920] starting
+[04/Jun/2006:00:06:54 :: 26921] asked to terminate immediately
+[04/Jun/2006:00:06:54 :: 26921] terminated by explicit exit
+[04/Jun/2006:00:06:54 :: 26920] asked to terminate immediately
+[04/Jun/2006:00:06:54 :: 26920] terminated by explicit exit
+[04/Jun/2006:13:38:04 :: 285] starting
+[04/Jun/2006:13:38:04 :: 286] starting
+[04/Jun/2006:15:15:25 :: 286] asked to terminate immediately
+[04/Jun/2006:15:15:25 :: 286] terminated by explicit exit
+[04/Jun/2006:15:15:25 :: 285] asked to terminate immediately
+[04/Jun/2006:15:15:25 :: 285] terminated by explicit exit
+[04/Jun/2006:16:15:49 :: 445] starting
+[04/Jun/2006:16:15:49 :: 446] starting
+[04/Jun/2006:23:21:36 :: 446] asked to terminate immediately
+[04/Jun/2006:23:21:36 :: 446] terminated by explicit exit
+[04/Jun/2006:23:21:36 :: 445] asked to terminate immediately
+[04/Jun/2006:23:21:36 :: 445] terminated by explicit exit
+[05/Jun/2006:19:45:58 :: 727] starting
+[05/Jun/2006:19:45:58 :: 726] starting
+[05/Jun/2006:21:51:44 :: 727] asked to terminate immediately
+[05/Jun/2006:21:51:44 :: 727] terminated by explicit exit
+[05/Jun/2006:21:51:44 :: 726] asked to terminate immediately
+[05/Jun/2006:21:51:44 :: 726] terminated by explicit exit
+[08/Jun/2006:20:05:30 :: 279] starting
+[08/Jun/2006:20:05:30 :: 278] starting
+[08/Jun/2006:21:59:54 :: 279] asked to terminate immediately
+[08/Jun/2006:21:59:54 :: 279] terminated by explicit exit
+[08/Jun/2006:21:59:54 :: 278] asked to terminate immediately
+[08/Jun/2006:21:59:54 :: 278] terminated by explicit exit
+[09/Jun/2006:17:15:03 :: 385] starting
+[09/Jun/2006:17:15:03 :: 384] starting
+[09/Jun/2006:17:18:31 :: 385] asked to terminate immediately
+[09/Jun/2006:17:18:31 :: 385] terminated by explicit exit
+[09/Jun/2006:17:18:31 :: 384] asked to terminate immediately
+[09/Jun/2006:17:18:31 :: 384] terminated by explicit exit
+[09/Jun/2006:17:20:07 :: 431] starting
+[09/Jun/2006:17:20:07 :: 432] starting
+[09/Jun/2006:22:14:10 :: 432] asked to terminate immediately
+[09/Jun/2006:22:14:10 :: 432] terminated by explicit exit
+[09/Jun/2006:22:14:10 :: 431] asked to terminate immediately
+[09/Jun/2006:22:14:10 :: 431] terminated by explicit exit
+[10/Jun/2006:12:28:12 :: 272] starting
+[10/Jun/2006:12:28:12 :: 273] starting
+[11/Jun/2006:17:48:50 :: 273] asked to terminate immediately
+[11/Jun/2006:17:48:50 :: 273] terminated by explicit exit
+[11/Jun/2006:17:48:50 :: 272] asked to terminate immediately
+[11/Jun/2006:17:48:50 :: 272] terminated by explicit exit
+[11/Jun/2006:20:27:36 :: 895] starting
+[11/Jun/2006:20:27:36 :: 896] starting
+[12/Jun/2006:18:14:48 :: 896] asked to terminate immediately
+[12/Jun/2006:18:14:48 :: 896] terminated by explicit exit
+[12/Jun/2006:18:14:48 :: 895] asked to terminate immediately
+[12/Jun/2006:18:14:48 :: 895] terminated by explicit exit
+[13/Jun/2006:15:51:12 :: 278] starting
+[13/Jun/2006:15:51:12 :: 277] starting
+[13/Jun/2006:16:14:17 :: 278] asked to terminate immediately
+[13/Jun/2006:16:14:17 :: 278] terminated by explicit exit
+[13/Jun/2006:16:14:17 :: 277] asked to terminate immediately
+[13/Jun/2006:16:14:17 :: 277] terminated by explicit exit
+[13/Jun/2006:16:14:28 :: 296] starting
+[13/Jun/2006:16:14:28 :: 297] starting
+[13/Jun/2006:21:15:42 :: 297] asked to terminate immediately
+[13/Jun/2006:21:15:42 :: 297] terminated by explicit exit
+[13/Jun/2006:21:15:42 :: 296] asked to terminate immediately
+[13/Jun/2006:21:15:42 :: 296] terminated by explicit exit
+[13/Jun/2006:21:15:55 :: 352] starting
+[13/Jun/2006:21:15:55 :: 353] starting
+[13/Jun/2006:22:12:50 :: 353] asked to terminate immediately
+[13/Jun/2006:22:12:50 :: 353] terminated by explicit exit
+[13/Jun/2006:22:12:50 :: 352] asked to terminate immediately
+[13/Jun/2006:22:12:50 :: 352] terminated by explicit exit
+[13/Jun/2006:22:13:00 :: 399] starting
+[13/Jun/2006:22:13:00 :: 400] starting
+[13/Jun/2006:22:25:39 :: 400] asked to terminate immediately
+[13/Jun/2006:22:25:39 :: 400] terminated by explicit exit
+[13/Jun/2006:22:25:39 :: 399] asked to terminate immediately
+[13/Jun/2006:22:25:39 :: 399] terminated by explicit exit
+[14/Jun/2006:19:57:33 :: 565] starting
+[14/Jun/2006:19:57:33 :: 566] starting
+[14/Jun/2006:20:21:18 :: 565] asked to terminate immediately
+[14/Jun/2006:20:21:18 :: 565] terminated by explicit exit
+[14/Jun/2006:20:21:18 :: 566] asked to terminate immediately
+[14/Jun/2006:20:21:18 :: 566] terminated by explicit exit
+[14/Jun/2006:20:21:29 :: 583] starting
+[14/Jun/2006:20:21:29 :: 582] starting
+[14/Jun/2006:20:26:10 :: 583] asked to terminate immediately
+[14/Jun/2006:20:26:10 :: 583] terminated by explicit exit
+[14/Jun/2006:20:26:10 :: 582] asked to terminate immediately
+[14/Jun/2006:20:26:10 :: 582] terminated by explicit exit
+[14/Jun/2006:20:26:20 :: 596] starting
+[14/Jun/2006:20:26:20 :: 597] starting
+[14/Jun/2006:21:51:25 :: 597] asked to terminate immediately
+[14/Jun/2006:21:51:25 :: 597] terminated by explicit exit
+[14/Jun/2006:21:51:25 :: 596] asked to terminate immediately
+[14/Jun/2006:21:51:25 :: 596] terminated by explicit exit
+[14/Jun/2006:21:51:37 :: 617] starting
+[14/Jun/2006:21:51:38 :: 618] starting
+[16/Jun/2006:14:53:09 :: 282] starting
+[16/Jun/2006:14:53:09 :: 283] starting
+[16/Jun/2006:15:04:05 :: 283] asked to terminate immediately
+[16/Jun/2006:15:04:05 :: 283] terminated by explicit exit
+[16/Jun/2006:15:04:05 :: 282] asked to terminate immediately
+[16/Jun/2006:15:04:05 :: 282] terminated by explicit exit
+[16/Jun/2006:15:04:16 :: 306] starting
+[16/Jun/2006:15:04:16 :: 307] starting
+[16/Jun/2006:15:19:45 :: 307] asked to terminate immediately
+[16/Jun/2006:15:19:45 :: 307] terminated by explicit exit
+[16/Jun/2006:15:19:45 :: 306] asked to terminate immediately
+[16/Jun/2006:15:19:45 :: 306] terminated by explicit exit
+[16/Jun/2006:15:19:56 :: 328] starting
+[16/Jun/2006:15:19:56 :: 329] starting
+[16/Jun/2006:15:20:05 :: 329] asked to terminate immediately
+[16/Jun/2006:15:20:05 :: 329] terminated by explicit exit
+[16/Jun/2006:15:20:05 :: 328] asked to terminate immediately
+[16/Jun/2006:15:20:05 :: 328] terminated by explicit exit
+[16/Jun/2006:15:20:16 :: 342] starting
+[16/Jun/2006:15:20:16 :: 343] starting
+[16/Jun/2006:17:58:48 :: 343] asked to terminate immediately
+[16/Jun/2006:17:58:48 :: 343] terminated by explicit exit
+[16/Jun/2006:17:58:48 :: 342] asked to terminate immediately
+[16/Jun/2006:17:58:48 :: 342] terminated by explicit exit
+[17/Jun/2006:14:49:54 :: 485] starting
+[17/Jun/2006:14:49:54 :: 484] starting
+[17/Jun/2006:20:57:42 :: 485] asked to terminate immediately
+[17/Jun/2006:20:57:42 :: 485] terminated by explicit exit
+[17/Jun/2006:20:57:42 :: 484] asked to terminate immediately
+[17/Jun/2006:20:57:42 :: 484] terminated by explicit exit
+[19/Jun/2006:08:39:52 :: 313] starting
+[19/Jun/2006:08:39:52 :: 314] starting
+[19/Jun/2006:17:56:17 :: 260] starting
+[19/Jun/2006:17:56:17 :: 261] starting
+[19/Jun/2006:22:29:47 :: 261] asked to terminate immediately
+[19/Jun/2006:22:29:47 :: 261] terminated by explicit exit
+[19/Jun/2006:22:29:47 :: 260] asked to terminate immediately
+[19/Jun/2006:22:29:47 :: 260] terminated by explicit exit
+[20/Jun/2006:20:09:14 :: 723] starting
+[20/Jun/2006:20:09:14 :: 722] starting
+[21/Jun/2006:17:51:00 :: 723] asked to terminate immediately
+[21/Jun/2006:17:51:00 :: 723] terminated by explicit exit
+[21/Jun/2006:17:51:00 :: 722] asked to terminate immediately
+[21/Jun/2006:17:51:00 :: 722] terminated by explicit exit
+[21/Jun/2006:19:48:30 :: 1197] starting
+[21/Jun/2006:19:48:30 :: 1193] starting
+[22/Jun/2006:20:28:46 :: 1197] asked to terminate immediately
+[22/Jun/2006:20:28:46 :: 1197] terminated by explicit exit
+[22/Jun/2006:20:28:46 :: 1193] asked to terminate immediately
+[22/Jun/2006:20:28:46 :: 1193] terminated by explicit exit
+[22/Jun/2006:20:28:57 :: 1787] starting
+[22/Jun/2006:20:28:57 :: 1788] starting
+[23/Jun/2006:22:22:58 :: 1788] asked to terminate immediately
+[23/Jun/2006:22:22:58 :: 1788] terminated by explicit exit
+[23/Jun/2006:22:22:58 :: 1787] asked to terminate immediately
+[23/Jun/2006:22:22:58 :: 1787] terminated by explicit exit
+[24/Jun/2006:13:32:08 :: 398] starting
+[24/Jun/2006:13:32:08 :: 397] starting
+[24/Jun/2006:13:51:56 :: 398] asked to terminate immediately
+[24/Jun/2006:13:51:56 :: 398] terminated by explicit exit
+[24/Jun/2006:13:51:56 :: 397] asked to terminate immediately
+[24/Jun/2006:13:51:56 :: 397] terminated by explicit exit
+[24/Jun/2006:13:52:07 :: 415] starting
+[24/Jun/2006:13:52:07 :: 416] starting
+[25/Jun/2006:00:11:56 :: 416] asked to terminate immediately
+[25/Jun/2006:00:11:56 :: 416] terminated by explicit exit
+[25/Jun/2006:00:11:56 :: 415] asked to terminate immediately
+[25/Jun/2006:00:11:56 :: 415] terminated by explicit exit
+[25/Jun/2006:15:43:19 :: 600] starting
+[25/Jun/2006:15:43:20 :: 601] starting
+[25/Jun/2006:22:42:21 :: 601] asked to terminate immediately
+[25/Jun/2006:22:42:21 :: 601] terminated by explicit exit
+[25/Jun/2006:22:42:21 :: 600] asked to terminate immediately
+[25/Jun/2006:22:42:21 :: 600] terminated by explicit exit
+[28/Jun/2006:07:51:15 :: 217] starting
+[28/Jun/2006:07:51:15 :: 216] starting
+[28/Jun/2006:09:26:57 :: 217] asked to terminate immediately
+[28/Jun/2006:09:26:57 :: 217] terminated by explicit exit
+[28/Jun/2006:09:26:57 :: 216] asked to terminate immediately
+[28/Jun/2006:09:26:57 :: 216] terminated by explicit exit
+[28/Jun/2006:09:27:06 :: 254] starting
+[28/Jun/2006:09:27:06 :: 253] starting
+[28/Jun/2006:09:28:51 :: 254] asked to terminate immediately
+[28/Jun/2006:09:28:51 :: 254] terminated by explicit exit
+[28/Jun/2006:09:28:51 :: 253] asked to terminate immediately
+[28/Jun/2006:09:28:51 :: 253] terminated by explicit exit
+[28/Jun/2006:09:29:00 :: 268] starting
+[28/Jun/2006:09:29:00 :: 267] starting
+[28/Jun/2006:09:49:22 :: 268] asked to terminate immediately
+[28/Jun/2006:09:49:22 :: 268] terminated by explicit exit
+[28/Jun/2006:09:49:22 :: 267] asked to terminate immediately
+[28/Jun/2006:09:49:22 :: 267] terminated by explicit exit
+[28/Jun/2006:09:49:31 :: 283] starting
+[28/Jun/2006:09:49:31 :: 282] starting
+[28/Jun/2006:22:25:06 :: 283] asked to terminate immediately
+[28/Jun/2006:22:25:06 :: 283] terminated by explicit exit
+[28/Jun/2006:22:25:06 :: 282] asked to terminate immediately
+[28/Jun/2006:22:25:06 :: 282] terminated by explicit exit
+[30/Jun/2006:07:38:21 :: 235] starting
+[30/Jun/2006:07:38:21 :: 236] starting
+[30/Jun/2006:08:32:22 :: 235] asked to terminate immediately
+[30/Jun/2006:08:32:22 :: 235] terminated by explicit exit
+[30/Jun/2006:08:32:22 :: 236] asked to terminate immediately
+[30/Jun/2006:08:32:22 :: 236] terminated by explicit exit
+[30/Jun/2006:08:32:32 :: 346] starting
+[30/Jun/2006:08:32:32 :: 345] starting
+[30/Jun/2006:10:54:19 :: 412] starting
+[30/Jun/2006:10:54:21 :: 411] starting
+[30/Jun/2006:16:53:32 :: 222] starting
+[30/Jun/2006:16:53:32 :: 221] starting
+[30/Jun/2006:17:05:58 :: 222] asked to terminate immediately
+[30/Jun/2006:17:05:58 :: 222] terminated by explicit exit
+[30/Jun/2006:17:05:58 :: 221] asked to terminate immediately
+[30/Jun/2006:17:05:58 :: 221] terminated by explicit exit
+[30/Jun/2006:17:06:11 :: 304] starting
+[30/Jun/2006:17:06:11 :: 303] starting
+[30/Jun/2006:19:46:02 :: 304] asked to terminate immediately
+[30/Jun/2006:19:46:02 :: 304] terminated by explicit exit
+[30/Jun/2006:19:46:02 :: 303] asked to terminate immediately
+[30/Jun/2006:19:46:02 :: 303] terminated by explicit exit
+[02/Jul/2006:12:41:16 :: 281] starting
+[02/Jul/2006:12:41:16 :: 280] starting
+[02/Jul/2006:20:04:52 :: 281] asked to terminate immediately
+[02/Jul/2006:20:04:52 :: 281] terminated by explicit exit
+[02/Jul/2006:20:04:52 :: 280] asked to terminate immediately
+[02/Jul/2006:20:04:52 :: 280] terminated by explicit exit
+[03/Jul/2006:20:16:27 :: 369] starting
+[03/Jul/2006:20:16:27 :: 368] starting
+[03/Jul/2006:22:56:04 :: 369] asked to terminate immediately
+[03/Jul/2006:22:56:04 :: 369] terminated by explicit exit
+[03/Jul/2006:22:56:04 :: 368] asked to terminate immediately
+[03/Jul/2006:22:56:04 :: 368] terminated by explicit exit
+[06/Jul/2006:13:53:06 :: 208] starting
+[06/Jul/2006:13:53:06 :: 209] starting
+[06/Jul/2006:14:11:08 :: 209] asked to terminate immediately
+[06/Jul/2006:14:11:08 :: 209] terminated by explicit exit
+[06/Jul/2006:14:11:08 :: 208] asked to terminate immediately
+[06/Jul/2006:14:11:08 :: 208] terminated by explicit exit
+[10/Jul/2006:10:40:21 :: 231] starting
+[10/Jul/2006:10:40:21 :: 224] starting
+[10/Jul/2006:18:02:59 :: 231] asked to terminate immediately
+[10/Jul/2006:18:02:59 :: 231] terminated by explicit exit
+[10/Jul/2006:18:02:59 :: 224] asked to terminate immediately
+[10/Jul/2006:18:02:59 :: 224] terminated by explicit exit
+[10/Jul/2006:21:52:52 :: 834] starting
+[10/Jul/2006:21:52:52 :: 835] starting
+[10/Jul/2006:22:18:24 :: 835] asked to terminate immediately
+[10/Jul/2006:22:18:24 :: 835] terminated by explicit exit
+[10/Jul/2006:22:18:24 :: 834] asked to terminate immediately
+[10/Jul/2006:22:18:24 :: 834] terminated by explicit exit
+[10/Jul/2006:22:18:37 :: 911] starting
+[10/Jul/2006:22:18:37 :: 910] starting
+[10/Jul/2006:22:52:42 :: 911] asked to terminate immediately
+[10/Jul/2006:22:52:42 :: 911] terminated by explicit exit
+[10/Jul/2006:22:52:42 :: 910] asked to terminate immediately
+[10/Jul/2006:22:52:42 :: 910] terminated by explicit exit
+[11/Jul/2006:09:42:02 :: 230] starting
+[11/Jul/2006:09:42:02 :: 229] starting
+[12/Jul/2006:15:51:35 :: 326] starting
+[12/Jul/2006:15:51:35 :: 325] starting
+[14/Jul/2006:14:39:15 :: 326] asked to terminate immediately
+[14/Jul/2006:14:39:15 :: 326] terminated by explicit exit
+[14/Jul/2006:14:39:15 :: 325] asked to terminate immediately
+[14/Jul/2006:14:39:15 :: 325] terminated by explicit exit
+[16/Jul/2006:15:13:03 :: 348] starting
+[16/Jul/2006:15:13:03 :: 350] starting
+[16/Jul/2006:15:49:08 :: 350] asked to terminate immediately
+[16/Jul/2006:15:49:08 :: 350] frao handler working its magic!
+[16/Jul/2006:15:49:08 :: 350] asked to restart ASAP
+[16/Jul/2006:15:49:08 :: 348] asked to terminate immediately
+[16/Jul/2006:15:49:08 :: 348] frao handler working its magic!
+[16/Jul/2006:15:49:08 :: 348] asked to restart ASAP
+[16/Jul/2006:15:50:50 :: 379] starting
+[16/Jul/2006:15:50:50 :: 380] starting
+[16/Jul/2006:18:24:12 :: 380] asked to terminate immediately
+[16/Jul/2006:18:24:12 :: 380] frao handler working its magic!
+[16/Jul/2006:18:24:12 :: 380] asked to restart ASAP
+[16/Jul/2006:18:24:12 :: 379] asked to terminate immediately
+[16/Jul/2006:18:24:12 :: 379] frao handler working its magic!
+[16/Jul/2006:18:24:12 :: 379] asked to restart ASAP
+[16/Jul/2006:18:24:23 :: 434] starting
+[16/Jul/2006:18:24:23 :: 433] starting
+[16/Jul/2006:22:45:02 :: 434] asked to terminate immediately
+[16/Jul/2006:22:45:02 :: 434] frao handler working its magic!
+[16/Jul/2006:22:45:02 :: 434] asked to restart ASAP
+[16/Jul/2006:22:45:02 :: 433] asked to terminate immediately
+[16/Jul/2006:22:45:02 :: 433] frao handler working its magic!
+[16/Jul/2006:22:45:02 :: 433] asked to restart ASAP
+[17/Jul/2006:15:17:56 :: 661] starting
+[17/Jul/2006:15:17:56 :: 660] starting
+[17/Jul/2006:15:19:43 :: 661] asked to terminate immediately
+[17/Jul/2006:15:19:43 :: 661] frao handler working its magic!
+[17/Jul/2006:15:19:43 :: 661] asked to restart ASAP
+[17/Jul/2006:15:19:43 :: 660] asked to terminate immediately
+[17/Jul/2006:15:19:43 :: 660] frao handler working its magic!
+[17/Jul/2006:15:19:43 :: 660] asked to restart ASAP
+[17/Jul/2006:15:19:52 :: 705] starting
+[17/Jul/2006:15:19:52 :: 704] starting
+[17/Jul/2006:15:22:50 :: 705] asked to terminate immediately
+[17/Jul/2006:15:22:50 :: 705] frao handler working its magic!
+[17/Jul/2006:15:22:50 :: 705] asked to restart ASAP
+[17/Jul/2006:15:22:50 :: 704] asked to terminate immediately
+[17/Jul/2006:15:22:50 :: 704] frao handler working its magic!
+[17/Jul/2006:15:22:50 :: 704] asked to restart ASAP
+[17/Jul/2006:15:22:59 :: 720] starting
+[17/Jul/2006:15:22:59 :: 721] starting
+[17/Jul/2006:15:49:42 :: 721] asked to terminate immediately
+[17/Jul/2006:15:49:42 :: 721] frao handler working its magic!
+[17/Jul/2006:15:49:42 :: 721] asked to restart ASAP
+[17/Jul/2006:15:49:42 :: 720] asked to terminate immediately
+[17/Jul/2006:15:49:42 :: 720] frao handler working its magic!
+[17/Jul/2006:15:49:42 :: 720] asked to restart ASAP
+[17/Jul/2006:16:54:54 :: 817] starting
+[17/Jul/2006:16:54:54 :: 818] starting
+[18/Jul/2006:13:04:02 :: 818] asked to terminate immediately
+[18/Jul/2006:13:04:02 :: 818] frao handler working its magic!
+[18/Jul/2006:13:04:02 :: 818] asked to restart ASAP
+[18/Jul/2006:13:04:02 :: 817] asked to terminate immediately
+[18/Jul/2006:13:04:02 :: 817] frao handler working its magic!
+[18/Jul/2006:13:04:02 :: 817] asked to restart ASAP
+[18/Jul/2006:17:20:15 :: 1386] starting
+[18/Jul/2006:17:20:15 :: 1385] starting
+[18/Jul/2006:18:17:17 :: 1386] asked to terminate immediately
+[18/Jul/2006:18:17:17 :: 1386] frao handler working its magic!
+[18/Jul/2006:18:17:17 :: 1386] asked to restart ASAP
+[18/Jul/2006:18:17:17 :: 1385] asked to terminate immediately
+[18/Jul/2006:18:17:17 :: 1385] frao handler working its magic!
+[18/Jul/2006:18:17:17 :: 1385] asked to restart ASAP
+[18/Jul/2006:18:17:29 :: 1448] starting
+[18/Jul/2006:18:17:29 :: 1447] starting
+[18/Jul/2006:20:28:00 :: 1526] starting
+[18/Jul/2006:20:28:00 :: 1527] starting
+[19/Jul/2006:09:07:17 :: 262] starting
+[19/Jul/2006:09:07:17 :: 263] starting
+[19/Jul/2006:09:07:55 :: 263] asked to terminate immediately
+[19/Jul/2006:09:07:55 :: 263] frao handler working its magic!
+[19/Jul/2006:09:07:55 :: 263] asked to restart ASAP
+[19/Jul/2006:09:07:55 :: 262] asked to terminate immediately
+[19/Jul/2006:09:07:55 :: 262] frao handler working its magic!
+[19/Jul/2006:09:07:55 :: 262] asked to restart ASAP
+[19/Jul/2006:09:08:04 :: 279] starting
+[19/Jul/2006:09:08:04 :: 280] starting
+[20/Jul/2006:07:03:53 :: 280] asked to terminate immediately
+[20/Jul/2006:07:03:53 :: 280] frao handler working its magic!
+[20/Jul/2006:07:03:53 :: 280] asked to restart ASAP
+[20/Jul/2006:07:03:53 :: 279] asked to terminate immediately
+[20/Jul/2006:07:03:53 :: 279] frao handler working its magic!
+[20/Jul/2006:07:03:53 :: 279] asked to restart ASAP
+[20/Jul/2006:08:43:30 :: 238] starting
+[20/Jul/2006:08:43:30 :: 239] starting
+[20/Jul/2006:19:31:14 :: 239] asked to terminate immediately
+[20/Jul/2006:19:31:14 :: 239] frao handler working its magic!
+[20/Jul/2006:19:31:14 :: 239] asked to restart ASAP
+[20/Jul/2006:19:31:14 :: 238] asked to terminate immediately
+[20/Jul/2006:19:31:14 :: 238] frao handler working its magic!
+[20/Jul/2006:19:31:14 :: 238] asked to restart ASAP
+[20/Jul/2006:19:32:13 :: 529] starting
+[20/Jul/2006:19:32:14 :: 528] starting
+[20/Jul/2006:23:11:37 :: 529] asked to terminate immediately
+[20/Jul/2006:23:11:37 :: 529] frao handler working its magic!
+[20/Jul/2006:23:11:37 :: 529] asked to restart ASAP
+[20/Jul/2006:23:11:37 :: 528] asked to terminate immediately
+[20/Jul/2006:23:11:37 :: 528] frao handler working its magic!
+[20/Jul/2006:23:11:37 :: 528] asked to restart ASAP
+[21/Jul/2006:08:21:13 :: 292] starting
+[21/Jul/2006:08:21:13 :: 291] starting
+[21/Jul/2006:10:44:54 :: 292] asked to terminate immediately
+[21/Jul/2006:10:44:54 :: 292] frao handler working its magic!
+[21/Jul/2006:10:44:54 :: 292] asked to restart ASAP
+[21/Jul/2006:10:44:54 :: 291] asked to terminate immediately
+[21/Jul/2006:10:44:54 :: 291] frao handler working its magic!
+[21/Jul/2006:10:44:54 :: 291] asked to restart ASAP
+[21/Jul/2006:10:45:06 :: 366] starting
+[21/Jul/2006:10:45:06 :: 367] starting
+[21/Jul/2006:10:46:21 :: 367] asked to terminate immediately
+[21/Jul/2006:10:46:21 :: 367] frao handler working its magic!
+[21/Jul/2006:10:46:21 :: 367] asked to restart ASAP
+[21/Jul/2006:10:46:21 :: 366] asked to terminate immediately
+[21/Jul/2006:10:46:21 :: 366] frao handler working its magic!
+[21/Jul/2006:10:46:21 :: 366] asked to restart ASAP
+[21/Jul/2006:10:46:33 :: 381] starting
+[21/Jul/2006:10:46:33 :: 382] starting
+[21/Jul/2006:10:47:26 :: 382] asked to terminate immediately
+[21/Jul/2006:10:47:26 :: 382] frao handler working its magic!
+[21/Jul/2006:10:47:26 :: 382] asked to restart ASAP
+[21/Jul/2006:10:47:26 :: 381] asked to terminate immediately
+[21/Jul/2006:10:47:26 :: 381] frao handler working its magic!
+[21/Jul/2006:10:47:26 :: 381] asked to restart ASAP
+[21/Jul/2006:10:47:40 :: 396] starting
+[21/Jul/2006:10:47:40 :: 397] starting
+[21/Jul/2006:10:48:10 :: 397] asked to terminate immediately
+[21/Jul/2006:10:48:10 :: 397] frao handler working its magic!
+[21/Jul/2006:10:48:10 :: 397] asked to restart ASAP
+[21/Jul/2006:10:48:10 :: 396] asked to terminate immediately
+[21/Jul/2006:10:48:10 :: 396] frao handler working its magic!
+[21/Jul/2006:10:48:10 :: 396] asked to restart ASAP
+[21/Jul/2006:10:48:21 :: 411] starting
+[21/Jul/2006:10:48:21 :: 412] starting
+[21/Jul/2006:10:49:22 :: 412] asked to terminate immediately
+[21/Jul/2006:10:49:22 :: 412] frao handler working its magic!
+[21/Jul/2006:10:49:22 :: 412] asked to restart ASAP
+[21/Jul/2006:10:49:22 :: 411] asked to terminate immediately
+[21/Jul/2006:10:49:22 :: 411] frao handler working its magic!
+[21/Jul/2006:10:49:22 :: 411] asked to restart ASAP
+[21/Jul/2006:10:49:34 :: 426] starting
+[21/Jul/2006:10:49:34 :: 427] starting
+[21/Jul/2006:10:50:10 :: 427] asked to terminate immediately
+[21/Jul/2006:10:50:10 :: 427] frao handler working its magic!
+[21/Jul/2006:10:50:10 :: 427] asked to restart ASAP
+[21/Jul/2006:10:50:10 :: 426] asked to terminate immediately
+[21/Jul/2006:10:50:10 :: 426] frao handler working its magic!
+[21/Jul/2006:10:50:10 :: 426] asked to restart ASAP
+[21/Jul/2006:10:50:21 :: 441] starting
+[21/Jul/2006:10:50:21 :: 442] starting
+[21/Jul/2006:10:50:53 :: 442] asked to terminate immediately
+[21/Jul/2006:10:50:53 :: 442] frao handler working its magic!
+[21/Jul/2006:10:50:53 :: 442] asked to restart ASAP
+[21/Jul/2006:10:50:53 :: 441] asked to terminate immediately
+[21/Jul/2006:10:50:53 :: 441] frao handler working its magic!
+[21/Jul/2006:10:50:53 :: 441] asked to restart ASAP
+[21/Jul/2006:10:51:04 :: 457] starting
+[21/Jul/2006:10:51:04 :: 456] starting
+[21/Jul/2006:17:07:41 :: 685] starting
+[21/Jul/2006:17:07:42 :: 685] asked to terminate immediately
+[21/Jul/2006:17:07:42 :: 685] frao handler working its magic!
+[21/Jul/2006:17:07:42 :: 685] asked to restart ASAP
+[21/Jul/2006:17:07:54 :: 698] starting
+[21/Jul/2006:17:07:54 :: 699] starting
+[21/Jul/2006:17:28:03 :: 699] asked to terminate immediately
+[21/Jul/2006:17:28:03 :: 699] frao handler working its magic!
+[21/Jul/2006:17:28:03 :: 699] asked to restart ASAP
+[21/Jul/2006:17:28:03 :: 698] asked to terminate immediately
+[21/Jul/2006:17:28:03 :: 698] frao handler working its magic!
+[21/Jul/2006:17:28:03 :: 698] asked to restart ASAP
+[21/Jul/2006:17:28:14 :: 713] starting
+[21/Jul/2006:17:28:14 :: 714] starting
+[21/Jul/2006:17:28:53 :: 714] asked to terminate immediately
+[21/Jul/2006:17:28:53 :: 714] frao handler working its magic!
+[21/Jul/2006:17:28:53 :: 714] asked to restart ASAP
+[21/Jul/2006:17:28:53 :: 713] asked to terminate immediately
+[21/Jul/2006:17:28:53 :: 713] frao handler working its magic!
+[21/Jul/2006:17:28:53 :: 713] asked to restart ASAP
+[21/Jul/2006:17:29:05 :: 728] starting
+[21/Jul/2006:17:29:05 :: 729] starting
+[21/Jul/2006:19:15:08 :: 729] asked to terminate immediately
+[21/Jul/2006:19:15:08 :: 729] frao handler working its magic!
+[21/Jul/2006:19:15:08 :: 729] asked to restart ASAP
+[21/Jul/2006:19:15:08 :: 728] asked to terminate immediately
+[21/Jul/2006:19:15:08 :: 728] frao handler working its magic!
+[21/Jul/2006:19:15:08 :: 728] asked to restart ASAP
+[22/Jul/2006:10:22:29 :: 1301] starting
+[22/Jul/2006:10:22:29 :: 1302] starting
+[22/Jul/2006:10:46:04 :: 1301] asked to terminate immediately
+[22/Jul/2006:10:46:04 :: 1301] frao handler working its magic!
+[22/Jul/2006:10:46:04 :: 1301] asked to restart ASAP
+[22/Jul/2006:10:46:04 :: 1302] asked to terminate immediately
+[22/Jul/2006:10:46:04 :: 1302] frao handler working its magic!
+[22/Jul/2006:10:46:04 :: 1302] asked to restart ASAP
+[22/Jul/2006:10:49:24 :: 1374] starting
+[22/Jul/2006:11:20:43 :: 1420] starting
+[22/Jul/2006:12:15:32 :: 1420] asked to reload ASAP
+[22/Jul/2006:13:38:10 :: 1420] reloaded
+[22/Jul/2006:14:49:26 :: 1738] starting
+[22/Jul/2006:14:58:12 :: 286] starting
+[22/Jul/2006:14:58:12 :: 287] starting
+[22/Jul/2006:15:00:28 :: 287] asked to terminate immediately
+[22/Jul/2006:15:00:28 :: 287] frao handler working its magic!
+[22/Jul/2006:15:00:28 :: 287] asked to restart ASAP
+[22/Jul/2006:15:00:28 :: 286] asked to terminate immediately
+[22/Jul/2006:15:00:28 :: 286] frao handler working its magic!
+[22/Jul/2006:15:00:28 :: 286] asked to restart ASAP
+[22/Jul/2006:15:00:38 :: 315] starting
+[22/Jul/2006:15:00:38 :: 316] starting
+[22/Jul/2006:17:50:12 :: 316] asked to terminate immediately
+[22/Jul/2006:17:50:12 :: 316] frao handler working its magic!
+[22/Jul/2006:17:50:12 :: 316] asked to restart ASAP
+[22/Jul/2006:17:50:12 :: 315] asked to terminate immediately
+[22/Jul/2006:17:50:12 :: 315] frao handler working its magic!
+[22/Jul/2006:17:50:12 :: 315] asked to restart ASAP
+[22/Jul/2006:17:50:21 :: 400] starting
+[22/Jul/2006:17:50:22 :: 401] starting
+[22/Jul/2006:17:53:08 :: 401] asked to terminate immediately
+[22/Jul/2006:17:53:08 :: 401] frao handler working its magic!
+[22/Jul/2006:17:53:08 :: 401] asked to restart ASAP
+[22/Jul/2006:17:53:08 :: 400] asked to terminate immediately
+[22/Jul/2006:17:53:08 :: 400] frao handler working its magic!
+[22/Jul/2006:17:53:08 :: 400] asked to restart ASAP
+[22/Jul/2006:17:53:18 :: 415] starting
+[22/Jul/2006:17:53:18 :: 416] starting
+[22/Jul/2006:17:57:20 :: 416] asked to terminate immediately
+[22/Jul/2006:17:57:20 :: 416] frao handler working its magic!
+[22/Jul/2006:17:57:20 :: 416] asked to restart ASAP
+[22/Jul/2006:17:57:20 :: 415] asked to terminate immediately
+[22/Jul/2006:17:57:20 :: 415] frao handler working its magic!
+[22/Jul/2006:17:57:20 :: 415] asked to restart ASAP
+[22/Jul/2006:17:57:30 :: 431] starting
+[22/Jul/2006:17:57:30 :: 432] starting
+[22/Jul/2006:17:58:07 :: 432] asked to terminate immediately
+[22/Jul/2006:17:58:07 :: 432] frao handler working its magic!
+[22/Jul/2006:17:58:07 :: 432] asked to restart ASAP
+[22/Jul/2006:17:58:07 :: 431] asked to terminate immediately
+[22/Jul/2006:17:58:07 :: 431] frao handler working its magic!
+[22/Jul/2006:17:58:07 :: 431] asked to restart ASAP
+[22/Jul/2006:17:58:17 :: 446] starting
+[22/Jul/2006:17:58:17 :: 447] starting
+[22/Jul/2006:17:58:40 :: 447] asked to terminate immediately
+[22/Jul/2006:17:58:40 :: 447] frao handler working its magic!
+[22/Jul/2006:17:58:40 :: 447] asked to restart ASAP
+[22/Jul/2006:17:58:40 :: 446] asked to terminate immediately
+[22/Jul/2006:17:58:40 :: 446] frao handler working its magic!
+[22/Jul/2006:17:58:40 :: 446] asked to restart ASAP
+[22/Jul/2006:17:58:50 :: 461] starting
+[22/Jul/2006:17:58:50 :: 462] starting
+[23/Jul/2006:12:19:54 :: 462] asked to terminate immediately
+[23/Jul/2006:12:19:54 :: 462] frao handler working its magic!
+[23/Jul/2006:12:19:54 :: 462] asked to restart ASAP
+[23/Jul/2006:12:19:54 :: 461] asked to terminate immediately
+[23/Jul/2006:12:19:54 :: 461] frao handler working its magic!
+[23/Jul/2006:12:19:54 :: 461] asked to restart ASAP
+[23/Jul/2006:12:20:15 :: 874] starting
+[23/Jul/2006:12:20:15 :: 873] starting
+[23/Jul/2006:12:24:23 :: 874] asked to terminate immediately
+[23/Jul/2006:12:24:23 :: 874] frao handler working its magic!
+[23/Jul/2006:12:24:23 :: 874] asked to restart ASAP
+[23/Jul/2006:12:24:23 :: 873] asked to terminate immediately
+[23/Jul/2006:12:24:23 :: 873] frao handler working its magic!
+[23/Jul/2006:12:24:23 :: 873] asked to restart ASAP
+[23/Jul/2006:12:24:41 :: 894] starting
+[24/Jul/2006:00:47:35 :: 894] asked to reload ASAP
+[24/Jul/2006:00:47:35 :: 894] asked to reload ASAP
+[24/Jul/2006:11:17:55 :: 894] reloaded
+[25/Jul/2006:07:03:55 :: 2035] starting
+[25/Jul/2006:16:04:24 :: 2455] starting
+[25/Jul/2006:21:58:20 :: 2763] starting
+[26/Jul/2006:15:18:48 :: 466] starting
+[26/Jul/2006:15:18:48 :: 465] starting
+[26/Jul/2006:17:22:17 :: 511] starting
+[26/Jul/2006:17:22:17 :: 510] starting
+[27/Jul/2006:17:47:33 :: 511] asked to terminate immediately
+[27/Jul/2006:17:47:33 :: 511] frao handler working its magic!
+[27/Jul/2006:17:47:33 :: 511] asked to restart ASAP
+[27/Jul/2006:17:47:33 :: 510] asked to terminate immediately
+[27/Jul/2006:17:47:33 :: 510] frao handler working its magic!
+[27/Jul/2006:17:47:33 :: 510] asked to restart ASAP
+[27/Jul/2006:17:47:34 :: 510] asked to terminate immediately
+[27/Jul/2006:17:47:34 :: 510] frao handler working its magic!
+[27/Jul/2006:17:47:34 :: 510] asked to restart ASAP
+[27/Jul/2006:17:47:34 :: 511] asked to terminate immediately
+[27/Jul/2006:17:47:34 :: 511] frao handler working its magic!
+[27/Jul/2006:17:47:34 :: 511] asked to restart ASAP
+[28/Jul/2006:14:17:13 :: 630] starting
+[28/Jul/2006:14:17:13 :: 629] starting
+[30/Jul/2006:10:30:14 :: 284] starting
+[30/Jul/2006:10:30:14 :: 283] starting
+[30/Jul/2006:22:58:03 :: 284] asked to terminate immediately
+[30/Jul/2006:22:58:03 :: 284] frao handler working its magic!
+[30/Jul/2006:22:58:03 :: 284] asked to restart ASAP
+[30/Jul/2006:22:58:03 :: 283] asked to terminate immediately
+[30/Jul/2006:22:58:03 :: 283] frao handler working its magic!
+[30/Jul/2006:22:58:03 :: 283] asked to restart ASAP
+[31/Jul/2006:19:25:46 :: 325] starting
+[31/Jul/2006:19:25:46 :: 327] starting
+[31/Jul/2006:22:02:35 :: 327] asked to terminate immediately
+[31/Jul/2006:22:02:35 :: 327] frao handler working its magic!
+[31/Jul/2006:22:02:35 :: 327] asked to restart ASAP
+[31/Jul/2006:22:02:35 :: 325] asked to terminate immediately
+[31/Jul/2006:22:02:35 :: 325] frao handler working its magic!
+[31/Jul/2006:22:02:35 :: 325] asked to restart ASAP
+[01/Aug/2006:07:03:54 :: 303] starting
+[01/Aug/2006:07:03:54 :: 306] starting
+[01/Aug/2006:20:41:27 :: 386] starting
+[01/Aug/2006:20:41:28 :: 384] starting
+[01/Aug/2006:20:49:21 :: 386] asked to terminate immediately
+[01/Aug/2006:20:49:21 :: 386] frao handler working its magic!
+[01/Aug/2006:20:49:21 :: 386] asked to restart ASAP
+[01/Aug/2006:20:49:21 :: 384] asked to terminate immediately
+[01/Aug/2006:20:49:21 :: 384] frao handler working its magic!
+[01/Aug/2006:20:49:21 :: 384] asked to restart ASAP
+[01/Aug/2006:20:51:41 :: 437] starting
+[01/Aug/2006:20:51:41 :: 435] starting
+[06/Aug/2006:14:09:55 :: 302] starting
+[06/Aug/2006:14:09:55 :: 305] starting
+[06/Aug/2006:20:56:01 :: 305] asked to terminate immediately
+[06/Aug/2006:20:56:01 :: 305] frao handler working its magic!
+[06/Aug/2006:20:56:01 :: 305] asked to restart ASAP
+[06/Aug/2006:20:56:01 :: 302] asked to terminate immediately
+[06/Aug/2006:20:56:01 :: 302] frao handler working its magic!
+[06/Aug/2006:20:56:01 :: 302] asked to restart ASAP
+[08/Aug/2006:21:21:45 :: 319] starting
+[08/Aug/2006:21:21:45 :: 323] starting
+[10/Aug/2006:06:26:28 :: 1270] starting
+[10/Aug/2006:06:26:28 :: 1269] starting
+[10/Aug/2006:07:13:32 :: 1270] asked to terminate immediately
+[10/Aug/2006:07:13:32 :: 1270] frao handler working its magic!
+[10/Aug/2006:07:13:32 :: 1270] asked to restart ASAP
+[10/Aug/2006:07:13:32 :: 1269] asked to terminate immediately
+[10/Aug/2006:07:13:32 :: 1269] frao handler working its magic!
+[10/Aug/2006:07:13:32 :: 1269] asked to restart ASAP
+[10/Aug/2006:18:09:04 :: 575] starting
+[10/Aug/2006:18:09:04 :: 574] starting
+[11/Aug/2006:16:02:43 :: 310] starting
+[11/Aug/2006:16:02:43 :: 307] starting
+[11/Aug/2006:16:09:48 :: 310] asked to terminate immediately
+[11/Aug/2006:16:09:48 :: 310] frao handler working its magic!
+[11/Aug/2006:16:09:48 :: 310] asked to restart ASAP
+[11/Aug/2006:16:09:48 :: 307] asked to terminate immediately
+[11/Aug/2006:16:09:48 :: 307] frao handler working its magic!
+[11/Aug/2006:16:09:48 :: 307] asked to restart ASAP
+[11/Aug/2006:16:09:52 :: 310] asked to terminate immediately
+[11/Aug/2006:16:09:52 :: 310] frao handler working its magic!
+[11/Aug/2006:16:09:52 :: 310] asked to restart ASAP
+[11/Aug/2006:16:09:52 :: 307] asked to terminate immediately
+[11/Aug/2006:16:09:52 :: 307] frao handler working its magic!
+[11/Aug/2006:16:09:52 :: 307] asked to restart ASAP
+[11/Aug/2006:16:09:53 :: 310] asked to terminate immediately
+[11/Aug/2006:16:09:53 :: 310] frao handler working its magic!
+[11/Aug/2006:16:09:53 :: 310] asked to restart ASAP
+[11/Aug/2006:16:09:53 :: 307] asked to terminate immediately
+[11/Aug/2006:16:09:53 :: 307] frao handler working its magic!
+[11/Aug/2006:16:09:53 :: 307] asked to restart ASAP
+[11/Aug/2006:16:09:53 :: 310] asked to terminate immediately
+[11/Aug/2006:16:09:53 :: 310] frao handler working its magic!
+[11/Aug/2006:16:09:53 :: 310] asked to restart ASAP
+[11/Aug/2006:16:09:53 :: 307] asked to terminate immediately
+[11/Aug/2006:16:09:53 :: 307] frao handler working its magic!
+[11/Aug/2006:16:09:53 :: 307] asked to restart ASAP
+[11/Aug/2006:23:45:12 :: 310] asked to terminate immediately
+[11/Aug/2006:23:45:12 :: 310] frao handler working its magic!
+[11/Aug/2006:23:45:12 :: 310] asked to restart ASAP
+[11/Aug/2006:23:45:12 :: 307] asked to terminate immediately
+[11/Aug/2006:23:45:12 :: 307] frao handler working its magic!
+[11/Aug/2006:23:45:12 :: 307] asked to restart ASAP
+[13/Aug/2006:12:00:34 :: 1407] starting
+[13/Aug/2006:12:01:42 :: 1407] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/jobcorps/public/dispatch.fcgi:34
+killed by this error
+[13/Aug/2006:12:01:58 :: 1417] starting
+[13/Aug/2006:12:18:19 :: 1417] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/jobcorps/public/dispatch.fcgi:34
+killed by this error
+[13/Aug/2006:12:20:07 :: 1475] starting
+[13/Aug/2006:14:31:19 :: 1475] asked to reload ASAP
+[13/Aug/2006:21:39:51 :: 1475] asked to terminate immediately
+[13/Aug/2006:21:39:51 :: 1475] frao handler working its magic!
+[13/Aug/2006:21:39:51 :: 1475] asked to restart ASAP
+[13/Aug/2006:21:39:51 :: 1475] asked to terminate immediately
+[13/Aug/2006:21:39:51 :: 1475] frao handler working its magic!
+[13/Aug/2006:21:39:51 :: 1475] asked to restart ASAP
+[16/Aug/2006:17:03:56 :: 361] starting
+[16/Aug/2006:17:23:25 :: 361] Dispatcher failed to catch:  (Interrupt)
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each'
+  /usr/local/lib/ruby/site_ruby/1.8/fcgi.rb:597:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:53:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.1.6/lib/fcgi_handler.rb:23:in `process!'
+  /Users/brmdev/projects/jobcorps/public/dispatch.fcgi:34
+killed by this error
+[23/Sep/2006:17:57:22 :: 353] starting
+[23/Sep/2006:18:27:13 :: 353] asked to reload ASAP
+[22/Feb/2008:13:57:32 :: 8630] starting
+[22/Feb/2008:13:57:32 :: 8630] Dispatcher failed to catch: private method `split' called for nil:NilClass (NoMethodError)
+  /usr/local/lib/ruby/1.8/cgi.rb:898:in `parse'
+  /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/cgi_ext/raw_post_data_fix.rb:45:in `initialize_query'
+  /usr/local/lib/ruby/1.8/cgi.rb:2275:in `initialize'
+  /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `new'
+  /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:141:in `process_each_request!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:55:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:25:in `process!'
+  ./dispatch.fcgi:34
+almost killed by this error
+[22/Feb/2008:13:57:32 :: 8630] Dispatcher failed to catch: private method `split' called for nil:NilClass (NoMethodError)
+  /usr/local/lib/ruby/1.8/cgi.rb:898:in `parse'
+  /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/cgi_ext/raw_post_data_fix.rb:45:in `initialize_query'
+  /usr/local/lib/ruby/1.8/cgi.rb:2275:in `initialize'
+  /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `new'
+  /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:141:in `process_each_request!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:55:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:25:in `process!'
+  ./dispatch.fcgi:34
+killed by this error
+[26/Feb/2008:17:21:02 :: 32500] starting
+[26/Feb/2008:17:21:02 :: 32500] Dispatcher failed to catch: private method `split' called for nil:NilClass (NoMethodError)
+  /usr/local/lib/ruby/1.8/cgi.rb:898:in `parse'
+  /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/cgi_ext/raw_post_data_fix.rb:45:in `initialize_query'
+  /usr/local/lib/ruby/1.8/cgi.rb:2275:in `initialize'
+  /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `new'
+  /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:141:in `process_each_request!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:55:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:25:in `process!'
+  ./public/dispatch.fcgi:24
+almost killed by this error
+[26/Feb/2008:17:21:02 :: 32500] Dispatcher failed to catch: private method `split' called for nil:NilClass (NoMethodError)
+  /usr/local/lib/ruby/1.8/cgi.rb:898:in `parse'
+  /usr/local/lib/ruby/gems/1.8/gems/actionpack-1.13.3/lib/action_controller/cgi_ext/raw_post_data_fix.rb:45:in `initialize_query'
+  /usr/local/lib/ruby/1.8/cgi.rb:2275:in `initialize'
+  /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `new'
+  /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:141:in `process_each_request!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:55:in `process!'
+  /usr/local/lib/ruby/gems/1.8/gems/rails-1.2.3/lib/fcgi_handler.rb:25:in `process!'
+  ./public/dispatch.fcgi:24
+killed by this error

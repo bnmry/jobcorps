@@ -1,0 +1,6 @@
+[Sun Jul 16 11:46:45 2006] [error] [client 66.66.182.254] FastCGI: comm with (dynamic) server "/home/ausg/jobcorps.ausg.org/public/dispatch.fcgi" aborted: (first read) idle timeout (120 sec)
+[Sun Jul 16 11:46:45 2006] [error] [client 66.66.182.254] FastCGI: incomplete headers (0 bytes) received from server "/home/ausg/jobcorps.ausg.org/public/dispatch.fcgi"
+[Sun Jul 16 11:53:17 2006] [error] [client 66.66.182.254] FastCGI: comm with (dynamic) server "/home/ausg/jobcorps.ausg.org/public/dispatch.fcgi" aborted: (first read) idle timeout (120 sec)
+[Sun Jul 16 11:53:17 2006] [error] [client 66.66.182.254] FastCGI: incomplete headers (0 bytes) received from server "/home/ausg/jobcorps.ausg.org/public/dispatch.fcgi"
+[Sun Jul 16 11:59:54 2006] [error] [client 66.66.182.254] FastCGI: comm with (dynamic) server "/home/ausg/jobcorps.ausg.org/public/dispatch.fcgi" aborted: (first read) idle timeout (120 sec)
+[Sun Jul 16 11:59:54 2006] [error] [client 66.66.182.254] FastCGI: incomplete headers (0 bytes) received from server "/home/ausg/jobcorps.ausg.org/public/dispatch.fcgi"

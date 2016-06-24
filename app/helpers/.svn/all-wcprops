@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/jobcorps/!svn/ver/1/app/helpers
+END
+reports_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/helpers/reports_helper.rb
+END
+tips_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jobcorps/!svn/ver/1/app/helpers/tips_helper.rb
+END
+favorites_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobcorps/!svn/ver/1/app/helpers/favorites_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobcorps/!svn/ver/1/app/helpers/application_helper.rb
+END
+resumes_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/helpers/resumes_helper.rb
+END
+babysitter_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobcorps/!svn/ver/1/app/helpers/babysitter_helper.rb
+END
+help_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jobcorps/!svn/ver/1/app/helpers/help_helper.rb
+END
+notes_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobcorps/!svn/ver/1/app/helpers/notes_helper.rb
+END
+students_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobcorps/!svn/ver/1/app/helpers/students_helper.rb
+END
+about_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobcorps/!svn/ver/1/app/helpers/about_helper.rb
+END
+welcome_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/helpers/welcome_helper.rb
+END
+account_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/helpers/account_helper.rb
+END

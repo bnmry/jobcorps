@@ -1,0 +1,3 @@
+Which'll it be, Administrator?
+
+<p><%= link_to "Students", :action => "students" %> or <%= link_to "Jobs", :action => "jobs" %>?

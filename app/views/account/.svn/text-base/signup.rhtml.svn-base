@@ -1,0 +1,100 @@
+<%= error_messages_for :user %>
+<% @title = "Create an Account"%>
+  <h2>Create an Account</h2>
+<% form_for :user do |f| -%>
+
+<h4>Personal Information</h4>
+<table class ="form-table" cellspacing="0">
+	<tr>
+		<th>First name:</th>
+		<td>
+			<%= f.text_field :firstname, :class => "input-text" %>
+		</td>
+	</tr>
+	<tr>
+		<th>Last name:</th>
+		<td><%= f.text_field :lastname, :class => "input-text" %></td>
+	</tr>
+	<tr>
+		<th>Company/School:</th>
+		<td><%= f.text_field :company_name, :class => "input-text" %>
+			<p class="note">Employers, provide company name, if applicable.  Students, provide the name of your school(s).</td>
+	</tr>
+	<tr>
+		<th>Mailing Address:</th>
+		<td><%= f.text_field :address1, :class => "input-text" %><br>
+		<%= f.text_field :address2, :class => "input-text" %>
+		<p class="note">This address is always kept private and never posted for users</p></td>
+	</tr>
+	<tr>
+		<th>City:</th>
+		<td><%= f.text_field :city, :class => "input-text" %></td>
+	</tr>
+	<tr>
+		<th>State:</th>
+		<td><%= f.text_field :state, :class => "input-text" %></td>
+	</tr>
+	<tr>
+		<th>Zip code:</th>
+		<td><%= f.text_field :zip_code, :class => "input-text" %></td>
+	</tr>
+	<tr>
+		<th>Telephone:</th>
+		<td><%= f.text_field :telephone, :class => "input-text" %></td>
+	</tr>
+</table>
+
+<h4>Optional</h4>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th>Privacy:</th>
+		<td><%= check_box "user", "receive_emails"%> JobCorps Updates
+			<p class="note">If checked, we may send you an email regarding big JobCorps updates.  No more than twice yearly.</p></td>
+		<td><%= check_box "user", "sg_notifications" %> SG Announcements
+			<p class="note">If checked, the Student Government might choose to inform you of big campus events such as speakers, concerts and forums.</p></td>
+	</tr>
+	</tr>
+</table>
+
+<h4>Account Information</h4>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th>Account Type:</th>
+		<td>
+			<% if is_administrator? %>
+				<%= radio_button 'user', 'identity', '1' %>Administrator  
+			<% end %>
+			<%= radio_button 'user', 'identity', '2' %>Student  
+			<%= radio_button 'user', 'identity', '3' %>Employer
+		</td>
+	<tr>
+		<th>Email address:</th>
+		<td><%= text_field 'user', 'email', :class => "input-text" %>
+			<p class="note">This must be a valid account. Students must provide valid AU address.</td>
+	</tr>	
+	<tr>
+		<th>Username:</th>
+		<td>
+			<%= text_field 'user', 'login', :class => "input-text" %>
+			<p class="note">Your login and pseudonym on JobCorps</em></p>
+		</td>
+	</tr>
+
+	<tr>
+		<th>Password:</th>
+		<td><%= password_field 'user', 'password', :class => "input-text" %></td>
+	</tr>          
+	<tr>
+		<th>Re-type:</th>
+		<td><%= password_field 'user', 'password_confirmation', :class => "input-text" %></td>
+	</tr>
+	<tr>
+		<th>Terms and Conditions:</th>
+		<td>By submitting this form, you affirm that you have read, and agree to, the terms and conditions set forth for end-users of JobCorps.  You may read the terms <%= link_to "here", :action => "terms", :controller => "about" %>
+		</td>
+	</tr>
+</table>
+	
+<p><%= submit_tag 'Submit' %></p>
+
+<% end -%>

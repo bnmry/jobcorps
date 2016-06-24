@@ -1,0 +1,54 @@
+/* font-size keyword fix for ie5/win */
+body {
+	font-size: x-small; /* ie5/win */
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	font-size: small;
+	}
+html>body { /* be nice to Opera */
+	font-size: small;
+	}
+
+/* box model hack for ie5/win */
+#wrap-inner, 
+#header div, 
+#footer-inner {
+	width: 780px; /* ie5/win */
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	width: 750px;
+	}
+html>body #wrap-inner, 
+html>body #header div, 
+html>body #footer-inner { /* be nice to Opera */
+	width: 750px;
+	}
+
+/* IE6/Win calculates percentage width in a funky way, using px instead */
+* html #mini-lists div.mini {
+	width: 187px;
+	}
+	
+/* in lieu of li:hover support, just show a solid bg color */
+* html #footer div.mini ul li a:hover,
+* html #footer div.mini ul.mini-members li a:hover {
+	background-color: #fff;
+	}
+
+/* IE/Win doesn't like block-level links */
+* html #footer #mini-lists li a {
+	height: 1%;
+	}
+
+/* self-clearing floats */
+* html #wrap-inner, 
+* html #header,
+* html dl.profile,
+* html #content div.vcard,
+* html dl.comment,
+* html #searchoptions,
+* html #content p.page,
+* html #mini-lists,
+* html form#find.find-welcome {
+	height: 1%;
+	}

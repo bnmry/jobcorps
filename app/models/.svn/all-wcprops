@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/jobcorps/!svn/ver/1/app/models
+END
+user_notifier.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobcorps/!svn/ver/1/app/models/user_notifier.rb
+END
+note_mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jobcorps/!svn/ver/1/app/models/note_mailer.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/jobcorps/!svn/ver/1/app/models/user.rb
+END
+favorite.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobcorps/!svn/ver/1/app/models/favorite.rb
+END
+resume.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/jobcorps/!svn/ver/1/app/models/resume.rb
+END
+system_notifier.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/models/system_notifier.rb
+END
+note.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/jobcorps/!svn/ver/1/app/models/note.rb
+END
+user_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobcorps/!svn/ver/1/app/models/user_observer.rb
+END
+student.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/jobcorps/!svn/ver/1/app/models/student.rb
+END
+job.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/jobcorps/!svn/ver/1/app/models/job.rb
+END
+report.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/jobcorps/!svn/ver/1/app/models/report.rb
+END
+tip.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/jobcorps/!svn/ver/1/app/models/tip.rb
+END

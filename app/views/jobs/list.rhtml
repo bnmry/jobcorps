@@ -1,0 +1,41 @@
+<% @title = "Job Listings"%>
+<%= render :partial => "quick_nav"%>
+<% if !params[:id].nil?%>
+	<h2>Jobs Tagged With "<%= params[:id] %>"</h2>
+<% else %>
+	<h2>Listing All Jobs</h2>
+<% end -%>
+<% if params[:id].nil? %>
+	<%= pagination_links(@job_pages)%>
+<% end %>
+<% if @jobs %>
+<h3 class="item-list">The Jobs Marketplace</h3>
+    <table cellspacing="0" class="item-list">
+		<% 
+		odd_or_even = 0
+		for job in @jobs 
+			odd_or_even = 1 - odd_or_even
+		%>
+		<% if job.user.identity == 3%>
+	  		<tr class="alt_row<%= odd_or_even %>">
+	  			<th>
+					<strong><%= link_to job.title, :action => "show", :id => job.id %></strong><br>
+	  				<span class="description"><%= h(truncate(job.description, 75)) %></span>
+				</th>
+				
+				<td class="date">
+					<%= distance_of_time_in_words(Time.now, job.created_at, true )%> ago<br>
+					<span class="tags">start: $<%= job.pay_min%>/<%= job.pay_increment%></span>
+				</td>
+				
+	  		</tr>
+	<% end %>
+		<% end %>
+	
+	</table>
+	<% if params[:id].nil? %>
+		<%= pagination_links(@job_pages)%>
+	<% end %>
+<% else %>
+<h4 class="error">I have nothing for you</h4>
+<% end %>

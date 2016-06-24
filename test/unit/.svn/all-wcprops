@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/jobcorps/!svn/ver/1/test/unit
+END
+note_mailer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/test/unit/note_mailer_test.rb
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobcorps/!svn/ver/1/test/unit/user_test.rb
+END
+favorite_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jobcorps/!svn/ver/1/test/unit/favorite_test.rb
+END
+resume_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/jobcorps/!svn/ver/1/test/unit/resume_test.rb
+END
+application_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/test/unit/application_test.rb
+END
+note_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobcorps/!svn/ver/1/test/unit/note_test.rb
+END
+student_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jobcorps/!svn/ver/1/test/unit/student_test.rb
+END
+help_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobcorps/!svn/ver/1/test/unit/help_test.rb
+END
+request_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jobcorps/!svn/ver/1/test/unit/request_test.rb
+END
+job_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/jobcorps/!svn/ver/1/test/unit/job_test.rb
+END
+report_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/jobcorps/!svn/ver/1/test/unit/report_test.rb
+END
+welcome_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jobcorps/!svn/ver/1/test/unit/welcome_test.rb
+END
+tip_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/jobcorps/!svn/ver/1/test/unit/tip_test.rb
+END
+user_notifier_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobcorps/!svn/ver/1/test/unit/user_notifier_test.rb
+END

@@ -1,0 +1,94 @@
+8
+
+dir
+30
+http://www.brmurray.com/svn/jobcorps/vendor/plugins/classic_pagination
+http://www.brmurray.com/svn/jobcorps
+
+
+
+2008-02-28T16:36:54.097673Z
+14
+ausg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2dded529-1646-0410-b2cf-f842be2b690d
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-03-12T03:00:45.000000Z
+b14424b71d2f606a775061237c8226f1
+2008-02-28T16:36:54.097673Z
+14
+ausg
+
+init.rb
+file
+
+
+
+
+2008-03-12T03:00:45.000000Z
+181539722e198d92992a94f40310f4fc
+2008-02-28T16:36:54.097673Z
+14
+ausg
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-03-12T03:00:45.000000Z
+3ef206f381b42341342908fcc0001210
+2008-02-28T16:36:54.097673Z
+14
+ausg
+
+install.rb
+file
+
+
+
+
+2008-03-12T03:00:45.000000Z
+1c88d6bc27aa809cd6ef26543c18b1e6
+2008-02-28T16:36:54.097673Z
+14
+ausg
+
+README
+file
+
+
+
+
+2008-03-12T03:00:45.000000Z
+f1df690ff1ea0da74f8fe161f50722ad
+2008-02-28T16:36:54.097673Z
+14
+ausg
+

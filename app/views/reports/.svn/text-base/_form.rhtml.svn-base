@@ -1,0 +1,13 @@
+<%= error_messages_for 'report' %>
+
+<!--[form:report]-->
+<p><label for="report_created_at">Created at</label><br/>
+<%= datetime_select 'report', 'created_at'  %></p>
+
+<p><label for="report_reason">Reason</label><br/>
+<%= text_area 'report', 'reason'  %></p>
+
+<p><label for="report_category">Category</label><br/>
+<%= text_field 'report', 'category'  %></p>
+<!--[eoform:report]-->
+

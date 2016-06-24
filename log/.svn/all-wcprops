@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/jobcorps/!svn/ver/30/log
+END
+fastcgi.crash.log
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobcorps/!svn/ver/11/log/fastcgi.crash.log
+END
+lighttpd.access.log
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jobcorps/!svn/ver/1/log/lighttpd.access.log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/jobcorps/!svn/ver/1/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/jobcorps/!svn/ver/30/log/development.log
+END
+mongrel.log
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/jobcorps/!svn/ver/1/log/mongrel.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/jobcorps/!svn/ver/1/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/jobcorps/!svn/ver/1/log/server.log
+END
+lighttpd.error.log
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobcorps/!svn/ver/1/log/lighttpd.error.log
+END

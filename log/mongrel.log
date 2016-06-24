@@ -1,0 +1,563 @@
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+Cannot find gem for Rails =1.1.6:
+    Install the missing gem with 'gem install -v=1.1.6 rails', or
+    change environment.rb to define RAILS_GEM_VERSION with your desired version.
+  
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+Cannot find gem for Rails =1.1.6:
+    Install the missing gem with 'gem install -v=1.1.6 rails', or
+    change environment.rb to define RAILS_GEM_VERSION with your desired version.
+  
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:56)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/associations.rb:558)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/associations.rb:558)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/associations.rb:558)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/associations.rb:558)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/associations.rb:558)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/associations.rb:558)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/associations.rb:558)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activerecord-1.15.3/lib/active_record/associations.rb:558)
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+/Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking': /Users/bmurray/projects/jobcorps/config/../app/models/user.rb:9: syntax error, unexpected ',', expecting kEND (SyntaxError)
+  validates_presence_of     :login, :email, :address1, :firstname, :lastname; :state, :city, :identity, :telephone
+                                                                                     ^	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_file'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:202:in `load_file'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:452:in `const_missing'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:464:in `const_missing'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/inflector.rb:250:in `constantize'
+	 ... 25 levels...
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16:in `load'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+/Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking': /Users/bmurray/projects/jobcorps/config/../app/models/user.rb:9: syntax error, unexpected ',', expecting kEND (SyntaxError)
+  validates_presence_of     :login, :email, :address1, :firstname, :lastname; :state, :city, :identity, :telephone
+                                                                                     ^	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_file'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:202:in `load_file'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:452:in `const_missing'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:464:in `const_missing'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/inflector.rb:250:in `constantize'
+	 ... 25 levels...
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16:in `load'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+/Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking': /Users/bmurray/projects/jobcorps/config/../app/models/user.rb:9: syntax error, unexpected ',', expecting kEND (SyntaxError)
+  validates_presence_of     :login, :email, :address1, :firstname, :lastname; :state, :city, :identity, :telephone
+                                                                                     ^	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:203:in `load_file'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:202:in `load_file'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:94:in `require_or_load'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:452:in `const_missing'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/dependencies.rb:464:in `const_missing'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/activesupport-1.4.2/lib/active_support/inflector.rb:250:in `constantize'
+	 ... 25 levels...
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16:in `load'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/bmurray/projects/jobcorps/config/environment.rb:59)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+/Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/tcphack.rb:12:in `initialize_without_backlog': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/tcphack.rb:12:in `initialize'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:560:in `new'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:560:in `initialize'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:128:in `new'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:128:in `listener'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:98:in `cloaker_'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:51:in `call'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:51:in `initialize'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:83:in `new'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:83:in `run'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16:in `load'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+/Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/tcphack.rb:12:in `initialize_without_backlog': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/tcphack.rb:12:in `initialize'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:560:in `new'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel.rb:560:in `initialize'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:128:in `new'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:128:in `listener'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:98:in `cloaker_'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:51:in `call'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:51:in `initialize'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:83:in `new'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:83:in `run'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16:in `load'
+	from /Applications/Locomotive2/Bundles/rmagickRailsMar2007_i386.locobundle/framework/bin/mongrel_rails:16
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:38:Warning: require_gem is obsolete.  Use gem instead.
+
+      *******************************************************************
+      * config.breakpoint_server has been deprecated and has no effect. *
+      *******************************************************************
+      
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:28:Warning: require_gem is obsolete.  Use gem instead.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+DEPRECATION WARNING: start_form_tag is deprecated and will be removed from Rails 2.0 (use form_tag instead)  See http://www.rubyonrails.org/deprecation for details. (called from _run_rhtml_47app47views47account47login46rhtml at /Users/bmurray/projects/jobcorps/config/../app/views/account/login.rhtml:31)
+DEPRECATION WARNING: end_form_tag is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from _run_rhtml_47app47views47account47login46rhtml at /Users/bmurray/projects/jobcorps/config/../app/views/account/login.rhtml:47)
+DEPRECATION WARNING: start_form_tag is deprecated and will be removed from Rails 2.0 (use form_tag instead)  See http://www.rubyonrails.org/deprecation for details. (called from _run_rhtml_47app47views47account47login46rhtml at /Users/bmurray/projects/jobcorps/config/../app/views/account/login.rhtml:32)
+DEPRECATION WARNING: end_form_tag is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from _run_rhtml_47app47views47account47login46rhtml at /Users/bmurray/projects/jobcorps/config/../app/views/account/login.rhtml:48)
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:28:Warning: require_gem is obsolete.  Use gem instead.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with production environment...
+/Users/bmurray/projects/jobcorps/config/boot.rb:28:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from load_environment at /Users/bmurray/projects/jobcorps/config/../config/environments/production.rb:22)
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from load_environment at /Users/bmurray/projects/jobcorps/config/../config/environments/production.rb:22)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3000
+** Writing PID file to /Users/bmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps_new/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with production environment...
+/Users/bmurray/projects/jobcorps_new/config/boot.rb:28:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from load_environment at /Users/bmurray/projects/jobcorps_new/config/../config/environments/production.rb:22)
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from load_environment at /Users/bmurray/projects/jobcorps_new/config/../config/environments/production.rb:22)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/bmurray/projects/jobcorps_new/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps_new/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with production environment...
+/Users/bmurray/projects/jobcorps_new/config/boot.rb:28:Warning: require_gem is obsolete.  Use gem instead.
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from load_environment at /Users/bmurray/projects/jobcorps_new/config/../config/environments/production.rb:22)
+DEPRECATION WARNING: server_settings has been renamed smtp_settings, this warning will be removed with rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from load_environment at /Users/bmurray/projects/jobcorps_new/config/../config/environments/production.rb:22)
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/bmurray/projects/jobcorps_new/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/bmurray/projects/jobcorps_new/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+/Users/bmurray/projects/jobcorps_new/config/boot.rb:28:Warning: require_gem is obsolete.  Use gem instead.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/bmurray/projects/jobcorps_new/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/brmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/brmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/brmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:3006
+** Writing PID file to /Users/brmurray/projects/jobcorps/log/locomotive.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /Users/brmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+Rails requires RubyGems >= 0.9.4 (you have 0.9.2). Please `gem update --system` and try again.
+** Daemonized, any open files are closed.  Look at /Users/brmurray/projects/jobcorps/log/locomotive.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3006
+** Starting Rails with development environment...
+Rails requires RubyGems >= 0.9.4 (you have 0.9.0). Please `gem update --system` and try again.

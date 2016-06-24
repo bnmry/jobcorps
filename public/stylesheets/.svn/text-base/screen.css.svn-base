@@ -1,0 +1,4 @@
+/* import master stylesheet \*/
+@import url("master.css");
+@import url("ie.css");
+/* end import */

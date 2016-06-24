@@ -1,0 +1,186 @@
+<% if logged_in?%>
+<h2>Welcome, <%= @fullname %>!
+	<em class="subhead">Your Briefcase</em></h2>
+
+This is your JobCorps Briefcase.  Keep track of your postings, favorites and notes.  If you haven't posted anything yet, use the navigation to the left and get started.  Click on each header below to reveal its contents once you've started using the site.
+
+<% if current_user.identity == 2 %>
+	<h3 class="item-list">Your Student Profiles</h3>
+	    <table cellspacing="0" class="item-list">
+	<% if !@students %>
+			<tr class="alt_row1"><th><strong><%= link_to "Post a profile", :action => "new", :controller => "students" %></strong></th></tr>
+		<% end %>
+			<% 
+			odd_or_even = 0
+			for student in @students 
+				odd_or_even = 1 - odd_or_even
+			%>
+		  		<tr class="alt_row<%= odd_or_even %>">
+		  			<th>
+						<strong><%= link_to student.title, :action => "show", :controller => "students", :id => student.id %></strong>
+						<% if student.deactivated == 1 %>(inactive)<% end %><br>
+		  				<span class="description"><%= h(truncate(student.description, 75)) %></span>
+					</th>
+
+					<td class="date">
+						<%= distance_of_time_in_words(Time.now, student.created_at, true )%> ago<br>
+						<span class="tags">expires <%= distance_of_time_in_words(Time.now, student.expires)%> from now</span>
+					</td>
+
+		  		</tr>
+		<% end %>
+		</table>
+<% end %>
+
+<% if current_user.identity == 3 %>		
+		<h3 class="item-list">Jobs You've Posted</h3>
+		
+		    <table cellspacing="0" class="item-list">
+			<% if !@jobs.nil? %>
+				<% 
+				odd_or_even = 0
+				for job in @jobs 
+					odd_or_even = 1 - odd_or_even
+				%>
+			  		<tr class="alt_row<%= odd_or_even %>">
+			  			<th>
+							<strong><%= link_to job.title, :action => "show", :controller => "jobs", :id => job.id %></strong>
+							<% if job.deactivated == 1 %>(inactive)<% end %><br>
+			  				<span class="description"><%= h(truncate(job.description, 75)) %></span>
+						</th>
+
+						<td class="date">
+							<%= distance_of_time_in_words(Time.now, job.created_at, true )%> ago<br>
+							<span class="tags">expires <%= distance_of_time_in_words(Time.now, job.start_date)%> from now</span>
+						</td>
+
+			  		</tr>
+			     <% end %>
+			<% end %>
+			</table>
+<% end %>
+
+<% if current_user.identity == 2 %>
+	<h3 class="item-list" onclick="new Effect.toggle($('favs'),'appear')">Your Favorite Jobs</h3>
+		    <table cellspacing="0" class="item-list" id="favs" style="display:none">
+				<% if !@favorites_students %>
+					<tr class="alt_row1"><th><strong>You have no favorites</strong></th></tr>
+				<% end %>
+				<% 
+				odd_or_even = 0
+				for favorite in @favorites_students
+					odd_or_even = 1 - odd_or_even
+				%>
+			  		<tr class="alt_row<%= odd_or_even %>">
+			  			<th>
+							<strong><%= link_to favorite.job.title, :action => "show", :controller => "jobs", :id => favorite.job.id %></strong><br>
+			  				<span class="description"><%= h(truncate(favorite.job.description, 75))%></span>
+						</th>
+
+						<td class="date">
+							<%= distance_of_time_in_words(Time.now, favorite.created_on, true )%><br>
+							<span class="tags">
+								<%= link_to "delete from favs", :action => "destroy", :id => favorite.id %>
+							</span>
+						</td>
+
+			  		</tr>
+			<% end %>
+			</table>
+<% end %>
+
+<% if current_user.identity == 3 %>
+	<h3 class="item-list" onclick="new Effect.toggle($('favs'),'appear')">Your Favorite Students</h3>
+		    <table cellspacing="0" class="item-list" id="favs" style="display:none">
+				<% if !@favorites_employers %>
+					<tr class="alt_row1"><th><strong>You have no favorites</strong></th></tr>
+				<% end %>
+				<% 
+				odd_or_even = 0
+				for favorite in @favorites_employers
+				odd_or_even = 1 - odd_or_even
+				%>
+				
+			  		<tr class="alt_row<%= odd_or_even %>">
+						
+			  			<th>
+							<strong><%= link_to favorite.student.title, :action => "show", :controller => "jobs", :id => favorite.student.id %></strong><br>
+			  				<span class="description"><%= h(truncate(favorite.student.description, 75))%></span>
+						</th>
+
+						<td class="date">
+							<%= distance_of_time_in_words(Time.now, favorite.created_on, true )%><br>
+							<span class="tags">
+								<%= link_to "delete from favs", :action => "destroy", :id => favorite.id %>
+							</span>
+						</td>
+
+			  		</tr>
+			<% end %>
+			</table>
+<% end %>
+
+<% if current_user.identity == 2 %>
+	<h3 class="item-list"onclick="new Effect.toggle($('notes1'),'appear')">Notes You've Sent to Employers</h3>
+			<table cellspacing="0" class="item-list" id="notes1" style="display:none">
+				<% if !@notes_students %>
+					<tr class="alt_row1"><th><strong>You haven't sent any notes</strong></th></tr>
+				<% end %>
+				<% 
+				odd_or_even = 0
+				for note_job in @notes_jobs 
+					odd_or_even = 1 - odd_or_even
+				%>
+				<tr class="alt_row<%= odd_or_even %>">
+					<th>
+										<strong>Re: <%= link_to note_job.job.title, :action => "show", :controller => "notes", :id => note_job.id %></strong><br>
+						  				<span class="description">You: <%= h(truncate(note_job.body, 75)) %></span>
+									</th>
+
+									<td class="date">
+										<%= distance_of_time_in_words(Time.now, note_job.created_on, true )%> ago<br>
+										<span class="tags">
+											to: <%= note_job.job.user.firstname %> <%= note_job.job.user.lastname %>
+										</span>
+									</td>
+
+						  		</tr>
+				<% end %>
+				</table>
+<% end %>
+
+<% if current_user.identity == 3 %>
+				<h3 class="item-list"onclick="new Effect.toggle($('notes2'),'appear')">Notes You've Sent to Students</h3>
+				    <table cellspacing="0" class="item-list" id="notes2" style="display:none">
+						<% if !@notes_jobs %>
+							<tr class="alt_row1"><th><strong>You haven't sent any notes</strong></th></tr>
+						<% end %>
+					<% 
+					odd_or_even = 0
+					for note_student in @notes_students 
+						odd_or_even = 1 - odd_or_even
+					%>
+
+
+						  		<tr class="alt_row<%= odd_or_even %>">
+						  			<th>
+										<strong>Re: <%= link_to note_student.student.title, :action => "show", :id => note_student.id %></strong><br>
+						  				<span class="description">You: <%= h(truncate(note_student.body, 75)) %></span>
+									</th>
+
+									<td class="date">
+										<%= distance_of_time_in_words(Time.now, note_student.created_on, true )%> ago<br>
+										<span class="tags">
+												to: <%= note_student.student.user.firstname %> <%= note_student.student.user.lastname %>
+										</span>
+									</td>
+
+						  		</tr>
+					<% end %>
+						</table>
+<% end %>
+
+<% else %>
+<h4 class="error">You are not logged in.</h4>
+<p>If you've reached this page after clicking the link in your confirmation email, please contact JobCorps support at jobcorps@ausg.org.  You must have cookies enabled in your browser before using JobCorps.</p>
+<% end %>

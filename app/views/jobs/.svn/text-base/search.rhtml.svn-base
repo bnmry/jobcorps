@@ -1,0 +1,14 @@
+<%= render :partial => "quick_nav"%>
+<h2>Job Search<em class="subhead">Search Job Descriptions...Live</em></h2>
+<p>Looking for something more specific than tags?  Start typing in the search box and watch your results appear magically.  It will search all job descriptions.
+<div id="find">
+<input type="text" id="search-text" name="search" style="font:large" value="Type a keyword..." onfocus="if(this.value=='Type a keyword...'){this.value=''}"/>
+<img id="spinner" src="/images/indicator.gif" style="display: none;" />  </div>
+<div id="results"></div> 
+<%= observe_field 'search-text', 
+	:frequency => 0.5, 
+	:update => 'results', 
+	:url => { :controller => 'jobs', :action=> 'get_results' }, 
+	:with => "'search_text=' + escape(value)", 
+	:loading => "document.getElementById('spinner').style.display='inline'", 
+	:loaded => "document.getElementById('spinner').style.display='none'" %> 

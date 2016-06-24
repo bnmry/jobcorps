@@ -1,0 +1,67 @@
+8
+
+dir
+30
+http://www.brmurray.com/svn/jobcorps/vendor/plugins/acts_as_authenticated
+http://www.brmurray.com/svn/jobcorps
+
+
+
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2dded529-1646-0410-b2cf-f842be2b690d
+
+CHANGELOG
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+0e41062b3301764ff1fc4788641a55ba
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+install.rb
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+3773dce53854a282602d79a631a1ff8a
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+generators
+dir
+
+README
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+9f435c717b47f4fb80c3b5ef659c9302
+2008-02-15T15:32:16.698857Z
+1
+ausg
+

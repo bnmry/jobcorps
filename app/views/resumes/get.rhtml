@@ -1,0 +1,19 @@
+<%=  error_messages_for("resume") %>
+<%= form_tag ({:action => 'save'}, :multipart => true)%>
+<table class="form-table" cellspacing="0">
+	<tr>
+		<th><label for="comment">Comment:</label></th>
+		<td><%= text_field("resume", "comment")%></td>
+	</tr>
+	<tr>
+		<th><label for="resume">Resume File:</label></th>
+		<td><%= file_field("resume", "resume")%></td>
+	</tr>
+	<%= hidden_field 'resume', 'user_id', :value => current_user.id %>
+	<tr>
+		<td>
+			<%= submit_tag("Upload file")%>
+		</td>
+	</tr>
+<% end %>
+</table>

@@ -1,0 +1,121 @@
+8
+
+dir
+30
+http://www.brmurray.com/svn/jobcorps/vendor/plugins/calendar_helper
+http://www.brmurray.com/svn/jobcorps
+
+
+
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2dded529-1646-0410-b2cf-f842be2b690d
+
+test
+dir
+
+History.txt
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+82e239f94b32725a31a459e847370bb8
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+Rakefile
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+a4d7ea27986d162c693a91152cc25aa1
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+Manifest.txt
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+5125feac16ff6edf2453db994b323590
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+init.rb
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+c581ffa7cedb72e5770630db463a5fb4
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+lib
+dir
+
+generators
+dir
+
+MIT-LICENSE
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+ab9b97df69fac2311dca359eb541485e
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+about.yml
+file
+
+
+
+
+2008-02-21T12:53:42.000000Z
+38932fdc5649982ac9960fdb1e8615bf
+2008-02-15T15:32:16.698857Z
+1
+ausg
+
+README.txt
+file
+
+
+
+
+2008-02-21T12:53:43.000000Z
+9d4c7a31ff4ad120d2396a4493f4b51d
+2008-02-15T15:32:16.698857Z
+1
+ausg
+

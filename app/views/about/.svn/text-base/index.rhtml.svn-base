@@ -1,0 +1,19 @@
+<% @title = "About"%>
+<h2>About JobCorps</h2>
+<h5>JobCorps</h5>
+<p>JobCorps was first created in 2001 as a job posting board for the AU and DC community.  Despite its simplicity, it served well and resulted in the employment of thousands of American University students.</p>
+<p>Employers have turned to JobCorps repeatedly for reliable, hard-working students.  Commissioned by the 2005-2006 administration, JobCorps continues this tradition of excellence with a more advanced set of features: account management, advanced search, internal messaging, and more.</p>
+<p>JobCorps was developed by student at American University and released in July of 2006.</p>
+
+<h5>AU Student Government</h5>
+<p>The American University Student Government is the representative student organization on the campus of American University.  It is committed to serving the interests of the undergraduate students through university representation, advocacy, hassle-free services and event planning.  The SG is home to the university's premier student organizations, including the Kennedy Political Union, Student Union Board and Women's Initiative.  Participation in the SG is open and welcomed for all undergraduate students willing to work for a better AU.</p>
+
+<h5>Contact</h5>
+<p>All <strong>support related inquires</strong> may be directed to <%= enkode("jobcorps@ausg.org")%>.  Requests for support sent elsewhere will be discarded.  Please read the <%= link_to "help pages", :action => "index", :controller => "tips" %> before contacting support!</p>
+<p><strong>General inquiries</strong> may be directed to the SG Secretary, <%= enkode("secretary@ausg.org")%>.</p>
+<p><strong>Technical inquires</strong> regarding the site's structure and creation may be directed to the SG Director of Information Technology <%= enkode("ben.murray@ausg.org")%>.</p>
+
+<p>AU Student Government<br>
+	Mary Graydon Center 269<br>
+	4400 Massachusetts Ave NW<br>
+	Washington, DC 20016</p>

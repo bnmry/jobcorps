@@ -1,0 +1,21 @@
+development:
+  adapter: mysql
+  database: jobcorps_development
+  username: root
+  password: 
+  host: localhost
+  socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql
+  database: jobcorps_test
+  username: root
+  password:
+  host: localhost
+
+production:
+ adapter: mysql
+ database: jobcorps_production
+ username: jobcorps_ausg
+ password: KSW495
+ host: localhost

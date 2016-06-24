@@ -1,0 +1,37 @@
+<% @title = "Jobs on a Map"%>
+<!-- This includes the google maps API code. 
+	 You need to put your own key here -->
+    <script src="http://maps.google.com/maps?file=api&v=1&key=ABQIAAAA3eZmmVlL0NREhkwgeP35FBQcZBN0YV46vDN2cR6yAca5HDZQ8xSyNj-SOO9kj_KGR8oEjyBEXM6Uew" 
+	type="text/javascript"></script>
+
+    <script type="text/javascript">
+        // helper function to create markers
+        function createMarker(point,html) {
+            var marker = new GMarker(point);
+            GEvent.addListener(marker, "click", function() {
+             marker.openInfoWindowHtml(html);
+             });
+            return marker;
+        }
+        
+        // this is called when the page loads. 
+        // it initializes the map, and creates each marker
+        function initialize() {
+            var map = new GMap(document.getElementById("map"));
+            map.addControl(new GSmallMapControl());
+            map.centerAndZoom(new GPoint(-77.079674, 38.947909), 6);
+            
+            <%@places.each do |place|%>
+            var point = new GPoint(<%=place[:longitude]%>,<%=place[:latitude]%>);
+            var marker = createMarker(point,'<div><%=h place[:description]%></div>')
+            map.addOverlay(marker);
+            <%end%>
+        }    
+    </script>
+
+</head>
+<body onload="initialize()">
+
+Here's the map:
+<!-- This is the element in which the map will be displayed. -->
+<div id="map" style="width: 450px; height: 350px"></div>

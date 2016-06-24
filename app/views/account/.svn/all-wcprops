@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/jobcorps/!svn/ver/30/app/views/account
+END
+meet.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/29/app/views/account/meet.rhtml
+END
+activate.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobcorps/!svn/ver/30/app/views/account/activate.rhtml
+END
+forgot_password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobcorps/!svn/ver/1/app/views/account/forgot_password.rhtml
+END
+reset_password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobcorps/!svn/ver/30/app/views/account/reset_password.rhtml
+END
+signup.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobcorps/!svn/ver/22/app/views/account/signup.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/24/app/views/account/edit.rhtml
+END
+change_password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobcorps/!svn/ver/1/app/views/account/change_password.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/views/account/index.rhtml
+END
+admin.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/1/app/views/account/admin.rhtml
+END
+login.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobcorps/!svn/ver/3/app/views/account/login.rhtml
+END

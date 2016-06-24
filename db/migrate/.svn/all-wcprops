@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/jobcorps/!svn/ver/1/db/migrate
+END
+002_add_tag_support.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobcorps/!svn/ver/1/db/migrate/002_add_tag_support.rb
+END
+004_create_requests.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobcorps/!svn/ver/1/db/migrate/004_create_requests.rb
+END
+005_create_helps.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobcorps/!svn/ver/1/db/migrate/005_create_helps.rb
+END
+003_create_favorites.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobcorps/!svn/ver/1/db/migrate/003_create_favorites.rb
+END
+007_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobcorps/!svn/ver/1/db/migrate/007_create_users.rb
+END
+006_create_resumes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobcorps/!svn/ver/1/db/migrate/006_create_resumes.rb
+END

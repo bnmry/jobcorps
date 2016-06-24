@@ -1,0 +1,22 @@
+<% @title = "Reporting Students"%>
+<h3 class="item-list">Students Reporting</h3>
+    <table cellspacing="0" class="item-list">
+		<% 
+		odd_or_even = 0
+		for report in @reports 
+			odd_or_even = 1 - odd_or_even
+		%>
+	  		<tr class="alt_row<%= odd_or_even %>">
+	  			<th>
+					<strong><%= link_to report.student.title, :action => "show", :id => report.id %></strong><br>
+	  				<span class="description"><%= h(truncate(report.reason, 75)) %></span>
+				</th>
+				
+				<td class="date">
+					<%= distance_of_time_in_words(Time.now, report.created_at, true )%> ago<br>
+					<span class="tags"><%= link_to "tags, can, go, here", :action => "index" %></span>
+				</td>
+				
+	  		</tr>
+	<% end %>
+	</table>

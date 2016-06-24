@@ -1,0 +1,18 @@
+<% @title = "Edit Job"%>
+<% if can_edit_job? %>
+<h2>Edit "<%= @job.title %>"</h2>
+
+<% form_tag(:action => 'update', :id => @job.id) do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Edit' %>
+<% end %>
+
+<%= link_to 'Show', :action => 'show', :id => @job %> |
+<%= link_to 'Back', :action => 'list' %>
+
+<% else %>
+
+<h4 class="error">You cannot edit this job</h4>
+<p><%= link_to "<< Back", :action => "list", :controller => 'jobs' %></p>
+
+<% end %>

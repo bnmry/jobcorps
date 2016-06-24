@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/jobcorps/!svn/ver/30/config
+END
+locomotive.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobcorps/!svn/ver/27/config/locomotive.yml
+END
+lighttpd.conf
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/jobcorps/!svn/ver/1/config/lighttpd.conf
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/jobcorps/!svn/ver/30/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/jobcorps/!svn/ver/27/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/jobcorps/!svn/ver/15/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobcorps/!svn/ver/15/config/environment.rb
+END
+error.log.0
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/jobcorps/!svn/ver/1/config/error.log.0
+END
+error.log
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/jobcorps/!svn/ver/1/config/error.log
+END
+deploy.old.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/jobcorps/!svn/ver/18/config/deploy.old.rb
+END
+deploy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/jobcorps/!svn/ver/26/config/deploy.rb
+END
